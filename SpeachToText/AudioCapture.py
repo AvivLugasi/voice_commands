@@ -2,8 +2,8 @@ import time
 import pyaudio
 import wave
 import keyboard
-
-PLAYER_COMMAND_RECORD = "../Assets/AudioFiles/player_recorded_command_temp.wav"
+import whisper
+PLAYER_COMMAND_RECORD = "Assets/AudioFiles/player_recorded_command_temp.wav"
 RECORD_DURATION = 8
 SAMPLES_PER_SECONDS = 16000
 IS_STREAM_FROM_INPUT = True
@@ -106,7 +106,7 @@ class Recorder:
 # print(f"Time taken to load model: {end_time - start_time} seconds")
 # start_time = time.time()
 # # Transcribe the Ogg file
-# result = model.transcribe("testing_audio_capturing.wav", fp16=False, language='en')
+# result = model.transcribe("../Assets/AudioFiles/player_recorded_command_temp.wav", fp16=False, language='en')
 # end_time = time.time()
 # print(f"Time taken to transcribe text: {end_time - start_time} seconds")
 # # Print the transcription result
