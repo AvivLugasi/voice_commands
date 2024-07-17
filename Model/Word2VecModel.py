@@ -53,11 +53,11 @@ class Model:
     def find_top_n_similar_sentences(self, processed_sentences: list,
                                      input_sentence: str,
                                      n=1):
-        vectors_simmilarity_map = {}
+        vectors_similarity_map = {}
         input_vector = self.sentence_to_vector(input_sentence)
 
         for sentence in processed_sentences:
             vectorized_sentence = self.sentence_to_vector(sentence)
-            vectors_simmilarity_map[sentence] = cosine_sim(vectorized_sentence, input_vector)
+            vectors_similarity_map[sentence] = cosine_sim(vectorized_sentence, input_vector)
 
-        return heapq.nlargest(n, vectors_simmilarity_map.items(), key=lambda item: item[1])
+        return heapq.nlargest(n, vectors_similarity_map.items(), key=lambda item: item[1])
