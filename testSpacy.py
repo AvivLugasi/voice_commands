@@ -3,31 +3,17 @@ import time
 
 from TextProcessing.TextProcessor import TextProcessor
 import whisper
-from transformers import BertTokenizer, BertModel
-import torch
-from sklearn.metrics.pairwise import cosine_similarity
-import numpy as np
+from Model.BertModel import Model
+from Model.Utils import cosine_sim
 
-# Load pre-trained BERT model and tokenizer
-model_name = 'bert-base-uncased'
-tokenizer = BertTokenizer.from_pretrained(model_name)
-model = BertModel.from_pretrained(model_name)
-sentences = [
-    "This is the first sentence.",
-    "Here's the second sentence."
-]
 
-# Tokenize and encode the sentences
-encoded_input = tokenizer(sentences, padding=True, truncation=True, return_tensors='pt')
-print(encoded_input)
-# Forward pass
-with torch.no_grad():
-    outputs = model(**encoded_input)
+sentences = ["mirror the door", "arrest him"]
+model = Model(model_name='bert-base-uncased')
 
-# Obtain the embeddings from BERT's output (last hidden states)
-sentence_embeddings = outputs.last_hidden_state
+sentence_vectors_np_1 = model.embed_sentence(processed_sentence=sentences[0])
+sentence_vectors_np_2 = model.embed_sentence(processed_sentence=sentences[1])
 
-print(sentence_embeddings)
+print(cosine_sim(sentence_vectors_np_1, sentence_vectors_np_2, is_1d = True))
 # # Load the Whisper Model
 # start_time = time.time()
 # whisper_model = whisper.load_model("medium")

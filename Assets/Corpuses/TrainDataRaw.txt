@@ -17,8 +17,6 @@ Restrain her
 Cuff him
 Cuff her
 Don't you fucking move.
-This is procedure.
-You need to relax.
 You're under arrest. Do NOT move.
 Do NOT move.
 Stay where you are.
@@ -36,10 +34,10 @@ Evidence bagged.
 Disarming.
 Disarming trap.
 Cover me, disarming the device.
-Disabling now.
+Disable the trap.
+Disarm it.
 Securing the trap.
 Securing the device.
-Watch my back, disarming.
 Disarming.
 Disarming trap.
 Cover me. Disarming the device.
@@ -72,8 +70,16 @@ Thunder.
 Deploy Thunder.
 Get a charge on it.
 Breach and clear with charges.
+Breach and clear with c2 charges.
+Breach and clear with c4 charges.
+Breach and clear use c2.
+blow the door use c2
 Breach and clear with thunder.
 Blow it and clear.
+Blow it and clear, use charges.
+Blow it and clear, use c2 charges.
+Blow it and clear, use c4.
+Blow it and clear, use c2 explosives.
 Blow the door and clear it.
 Thunder.
 Deploy thunder.
@@ -158,7 +164,6 @@ Move there, don't get up.
 Move and stay there.
 Move to the sound of my voice.
 Move towards me.
-I need you to move.
 Move over here.
 Move forward.
 Turn around, keep your hands up.
@@ -233,12 +238,15 @@ Put a charge on the door, clear with CS.
 C2 the door. CS and clear.
 C2. Clear with CS.
 C2 and clear with CS.
+clear with CS gas,
+Deploy Gas.
+Deploy tear gas
 Give me a C2, then clear with CS.
 C2, bangin' clear.
 C2, flashbang it and clear it.
 Deploy C2, then flash bangs. Clear the room.
-See two, then flash it.
-I wanna see two in a flash, clear it.
+c2, then flash it.
+I wanna c2 in a flash, clear it.
 Let's get a C2 on there, clear with flash.
 C2 flashing clear.
 C2. Bang and clear.
