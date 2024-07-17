@@ -1,6 +1,8 @@
 from transformers import BertTokenizer, BertModel
 import torch
 import numpy as np
+from Model.Utils import cosine_sim
+import heapq
 
 PREFIX_TOKEN = "[CLS] "
 SUFFIX_TOKEN = " [SEP]"
@@ -12,7 +14,7 @@ class Model:
         self.tokenizer = BertTokenizer.from_pretrained(model_name)
         self.model = BertModel.from_pretrained(model_name, output_hidden_states = output_hidden_states)
 
-    def embed_sentence(self,
+    def sentence_to_vector(self,
                        processed_sentence: str,
                        mod='SENT'):
         self.model.eval()
@@ -37,6 +39,20 @@ class Model:
         indexed_tokens_tensor = torch.tensor([indexed_tokens])
         segments_ids_tensor = torch.tensor([segments_ids])
         return indexed_tokens_tensor, segments_ids_tensor
+
+    def find_top_n_similar_sentences(self,
+                                     processed_sentence: str,
+                                     processed_commands: list,
+                                     n=1):
+        vectors_similarity_map = {}
+        input_vector = self.sentence_to_vector(processed_sentence)
+
+        for sentence in processed_commands:
+            vectorized_sentence = self.sentence_to_vector(sentence)
+            vectors_similarity_map[sentence] = cosine_sim(vectorized_sentence, input_vector, is_1d = True)
+
+        return heapq.nlargest(n, vectors_similarity_map.items(), key=lambda item: item[1])
+
 
 def _get_word_vectors(output_grouped_by_tokens):
     # Stores the token vectors, with shape [num of tokens x 3,072]
