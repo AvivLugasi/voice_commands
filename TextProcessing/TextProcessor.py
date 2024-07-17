@@ -41,17 +41,17 @@ class TextProcessor:
                 if self.remove_punctuation:
                     token = _remove_punctuation(token)
                 processed_sentence.append(token)
-            # Train the bigram model
-            phrase_model = Phrases(text,
-                                   min_count=1,
-                                   threshold=10,
-                                   delimiter='_',
-                                   connector_words=ENGLISH_CONNECTOR_WORDS)
-
-            # Transform sentences to include bigrams
-            bigram_sentences = phrase_model[processed_sentence]
-            #print(bigram_sentences)
-            processed_sentence = bigram_sentences
+            # # Train the bigram model
+            # phrase_model = Phrases(text,
+            #                        min_count=1,
+            #                        threshold=10,
+            #                        delimiter='_',
+            #                        connector_words=ENGLISH_CONNECTOR_WORDS)
+            #
+            # # Transform sentences to include bigrams
+            # bigram_sentences = phrase_model[processed_sentence]
+            # #print(bigram_sentences)
+            # processed_sentence = bigram_sentences
             if self.use_lemmatizer:
                 pos_tags = pos_tag(processed_sentence)
                 processed_sentence = [self.lemmatize(word, pos=_get_wordnet_pos(tag)) for word, tag in pos_tags]
