@@ -1,0 +1,21 @@
+{
+    "profile name": "String",
+    "commands groups":
+    [
+        {
+            "group name": "String",
+            "commands list":
+            [
+                {
+                    "command name": "String",
+                    "variations": [
+                        "String 1",
+                        "String 2",
+                        "String 3"
+                    ],
+                    "keys_sequence": "String"
+                }
+            ]
+        }
+    ]
+}

@@ -3,13 +3,44 @@ import time
 
 from TextProcessing.TextProcessor import TextProcessor
 import whisper
-from Model.BertModel import Model
+from Model.BertModel import SentenceEmbedderModel
 from Model.Utils import cosine_sim
+import json
+import numpy as np
 
-model = Model(model_name='bert-base-uncased')
+# Read the JSON file
+with open('Assets/Data/ReadyOrNot/ReadyOrNotCommandsFormatted.json', 'r') as file:
+    data = json.load(file)
 
-sentence_1 = "open it clear use c2 draw flashbang"
-sentence_2 = "breach with c2 use flashbang"
+# List to hold all variations
+commands_list = []
+
+# Iterate through the commands groups and collect variations
+for group in data.get("commands groups", []):
+    for command in group.get("commands list", []):
+        variations = command.get("variations", [])
+        commands_list.extend(variations)
+
+# Print the list of all variations
+print(commands_list)
+
+model = SentenceEmbedderModel(model_name='bert-base-uncased')
+
+# for command in commands_list:
+#     embedded_command = model.sentence_to_vector(processed_sentence=command)
+#     # Convert the numpy tensor to a string
+#     tensor_string = np.array2string(embedded_command, separator=',', formatter={'all': lambda x: str(x)})
+#
+#     # Create the line with the string and tensor string separated by a colon
+#     line_to_write = f"{command}:{tensor_string}"
+#
+#     # Write the line to a file
+#     with open('Assets/Data/ReadyOrNot/CommandsAndEmbedding', 'a') as file:
+#         file.write(line_to_write + '\n')
+
+
+sentence_1 = "breach and clear with shotgun throw cs"
+sentence_2 = "breach with shotgun and clear throw cs"
 sentence_vectors_np_1 = model.sentence_to_vector(processed_sentence=sentence_1)
 sentence_vectors_np_2 = model.sentence_to_vector(processed_sentence=sentence_2)
 
@@ -22,33 +53,9 @@ end_time = time.time()
 print(f"Time taken to load model: {end_time - start_time} seconds")
 processor = TextProcessor(remove_stopwords=False)
 
-corpus = '''
-Gold open and clear. Open and clear use shotgun.
-Arrest suspect. Zip the suspect.
-Stack up.
-Breach and clear use c2.
-Breaching using shotgun.
-Police dont move.
-hand's up LSPD.
-LSPD swat, dont move!
-gold team open and clear.
-open and clear use explosive.
-use flash bang and clear.
-breach with c2 use flashbang.
-open with c2 use flashbang.
-make entry use c2.
-make entry use c2 and stun grenade.
-open with c2 throw tear gas.
-cover the area.
-move there.
-follow me.
-bag it.
-recover evidence.
-stack up the door.
-cover the door.
-'''
-processed_sentences = processor.process_text(corpus)
-print(processed_sentences)
+
+# processed_sentences = processor.process_text(commands_list)
+# print(processed_sentences)
 
 
 while True:
@@ -70,5 +77,5 @@ while True:
         processed_sentence = ' '.join(processed_sentence)
     print(processed_sentence)
 
-    most_similar = model.find_top_n_similar_sentences(processed_sentence[0], processed_sentences)
+    most_similar = model.find_top_n_similar_sentences(processed_sentence[0], commands_list)
     print(f"most similar to {processed_sentence}: {most_similar}")
