@@ -1,13 +1,13 @@
-from transformers import BertTokenizer, BertModel
+from transformers import BertTokenizer, BertModel, BertForSequenceClassification
 import torch
 import numpy as np
-from Model.Utils import cosine_sim
+from Model.Utils import cosine_sim, get_running_device
 import heapq
 
 PREFIX_TOKEN = "[CLS] "
 SUFFIX_TOKEN = " [SEP]"
 
-class Model:
+class SentenceEmbedderModel:
     def __init__(self,
                  model_name='bert-base-uncased',
                  output_hidden_states=True):
@@ -15,8 +15,8 @@ class Model:
         self.model = BertModel.from_pretrained(model_name, output_hidden_states = output_hidden_states)
 
     def sentence_to_vector(self,
-                       processed_sentence: str,
-                       mod='SENT'):
+                           processed_sentence: str,
+                           mod='SENT'):
         self.model.eval()
         indexed_tokens_tensor, segments_ids_tensor = self.get_model_inputs(processed_sentence)
         with torch.no_grad():
@@ -53,6 +53,23 @@ class Model:
 
         return heapq.nlargest(n, vectors_similarity_map.items(), key=lambda item: item[1])
 
+    def load_weights_from_trained_model(self, trained_model):
+
+        # Extract state dictionaries
+        fine_tuned_state_dict = trained_model.state_dict()
+        base_model_state_dict = self.model.state_dict()
+
+        # Filter out unnecessary keys in the state_dict
+        filtered_state_dict = {k: v for k, v in fine_tuned_state_dict.items() if k in base_model_state_dict}
+
+        # Load the filtered state_dict into the base model
+        self.model.state_dict = self.model.load_state_dict(filtered_state_dict, strict=False)
+
+
+class SequenceClassificationModel:
+    def __init__(self):
+        pass
+
 
 def _get_word_vectors(output_grouped_by_tokens):
     # Stores the token vectors, with shape [num of tokens x 3,072]
@@ -87,7 +104,7 @@ def _group_output_by_tokens(hidden_states):
     # Remove dimension 1, the "batches".
     token_embeddings = torch.squeeze(token_embeddings, dim=1)
     # Swap dimensions 0 and 1.
-    # not the output us arranged as follows: [tokens, layers, features]
+    # now the output is arranged as follows: [tokens, layers, features]
     # instead of [layers, batches, tokens, features]
     token_embeddings = token_embeddings.permute(1, 0, 2)
     return token_embeddings
