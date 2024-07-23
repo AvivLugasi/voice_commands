@@ -42,14 +42,12 @@ class SentenceEmbedderModel:
 
     def find_top_n_similar_sentences(self,
                                      processed_sentence: str,
-                                     processed_commands: list,
+                                     commands_embedding_dict: dict,
                                      n=1):
         vectors_similarity_map = {}
         input_vector = self.sentence_to_vector(processed_sentence)
-
-        for sentence in processed_commands:
-            vectorized_sentence = self.sentence_to_vector(sentence)
-            vectors_similarity_map[sentence] = cosine_sim(vectorized_sentence, input_vector, is_1d = True)
+        for command_variation in commands_embedding_dict.keys():
+            vectors_similarity_map[command_variation] = cosine_sim(commands_embedding_dict[command_variation], input_vector, is_1d = True)
 
         return heapq.nlargest(n, vectors_similarity_map.items(), key=lambda item: item[1])
 
