@@ -1,7 +1,8 @@
-from DataLoader import DataLoader
-from DataLoader import COMMAND_VARIATIONS_KEY
+from DataHandling.DataLoader import DataLoader
+from DataHandling.DataLoader import COMMAND_VARIATIONS_KEY
 import random
 import csv
+from sklearn.model_selection import train_test_split
 
 PARAPHRASES = 1
 NOT_PARAPHRASES = 0
@@ -12,9 +13,12 @@ DEFAULT_TRAIN_DATA_PATH = "Assets/Data/ReadyOrNot/BertSequanceClassiferDataSet.c
 class TrainDataManager:
     def __init__(self):
         self.dataloader = DataLoader()
-        self.sentences_pairs = None
-        self.pairs_labels = None
-
+        self.sentences_pairs = []
+        self.pairs_labels = []
+        self.train_pairs = []
+        self.val_pairs = []
+        self.train_labels = []
+        self.val_labels = []
 
     def generate_bert_train_data(self):
         formatted_commands_list = self.dataloader.get_commands_list()
@@ -37,6 +41,20 @@ class TrainDataManager:
             # Write each row one at a time
             for index, sentence_pair in enumerate(self.sentences_pairs):
                 writer.writerow([sentence_pair[0], sentence_pair[1], self.pairs_labels[index]])
+
+    def load_train_data(self,
+                        path=DEFAULT_TRAIN_DATA_PATH):
+        # Read the CSV file
+        with open(path, mode='r', newline='') as file:
+            reader = csv.reader(file)
+            for row in reader:
+                self.sentences_pairs.append((row[0], row[1]))
+                self.pairs_labels.append(row[2])
+
+    def train_validation_split(self):
+        self.train_pairs, self.val_pairs, self.train_labels, self.val_labels = train_test_split(self.sentences_pairs,
+                                                                                      self.pairs_labels,
+                                                                                      test_size=0.25)
 
 
 def _generate_positive_samples(formatted_commands_list: list,
