@@ -1,0 +1,2100 @@
+open and clear,open make entry,1
+open and clear,open the door and clear,1
+open make entry,open the door and clear,1
+open and clear use flashbang,open and clear use stun grenade,1
+open and clear use flashbang,open and clear use thunderflash,1
+open and clear use flashbang,make entry use flashbang,1
+open and clear use flashbang,make entry throw flashbang,1
+open and clear use flashbang,open and clear throw stun grenade,1
+open and clear use stun grenade,open and clear use thunderflash,1
+open and clear use stun grenade,make entry use flashbang,1
+open and clear use stun grenade,make entry throw flashbang,1
+open and clear use stun grenade,open and clear throw stun grenade,1
+open and clear use thunderflash,make entry use flashbang,1
+open and clear use thunderflash,make entry throw flashbang,1
+open and clear use thunderflash,open and clear throw stun grenade,1
+make entry use flashbang,make entry throw flashbang,1
+make entry use flashbang,open and clear throw stun grenade,1
+make entry throw flashbang,open and clear throw stun grenade,1
+open and clear use tear gas,open and clear use cs gas,1
+open and clear use tear gas,open and clear use gas,1
+open and clear use tear gas,make entry use tear gas,1
+open and clear use tear gas,make entry throw cs,1
+open and clear use tear gas,open and clear throw tear gas,1
+open and clear use cs gas,open and clear use gas,1
+open and clear use cs gas,make entry use tear gas,1
+open and clear use cs gas,make entry throw cs,1
+open and clear use cs gas,open and clear throw tear gas,1
+open and clear use gas,make entry use tear gas,1
+open and clear use gas,make entry throw cs,1
+open and clear use gas,open and clear throw tear gas,1
+make entry use tear gas,make entry throw cs,1
+make entry use tear gas,open and clear throw tear gas,1
+make entry throw cs,open and clear throw tear gas,1
+open and clear use sting grenade,open and clear use stinger,1
+open and clear use sting grenade,make entry use stinger,1
+open and clear use sting grenade,make entry sting grenade,1
+open and clear use sting grenade,open and clear throw stinger,1
+open and clear use stinger,make entry use stinger,1
+open and clear use stinger,make entry sting grenade,1
+open and clear use stinger,open and clear throw stinger,1
+make entry use stinger,make entry sting grenade,1
+make entry use stinger,open and clear throw stinger,1
+make entry sting grenade,open and clear throw stinger,1
+open and clear use charges,open and clear use explosives,1
+open and clear use charges,open and clear use c4,1
+open and clear use charges,open and clear use c2,1
+open and clear use charges,make entry use c2,1
+open and clear use charges,make entry use c4,1
+open and clear use charges,make entry use explosives,1
+open and clear use charges,breach with c2 and clear,1
+open and clear use charges,breach with c4 and clear,1
+open and clear use charges,breach with explosives and clear,1
+open and clear use explosives,open and clear use c4,1
+open and clear use explosives,open and clear use c2,1
+open and clear use explosives,make entry use c2,1
+open and clear use explosives,make entry use c4,1
+open and clear use explosives,make entry use explosives,1
+open and clear use explosives,breach with c2 and clear,1
+open and clear use explosives,breach with c4 and clear,1
+open and clear use explosives,breach with explosives and clear,1
+open and clear use c4,open and clear use c2,1
+open and clear use c4,make entry use c2,1
+open and clear use c4,make entry use c4,1
+open and clear use c4,make entry use explosives,1
+open and clear use c4,breach with c2 and clear,1
+open and clear use c4,breach with c4 and clear,1
+open and clear use c4,breach with explosives and clear,1
+open and clear use c2,make entry use c2,1
+open and clear use c2,make entry use c4,1
+open and clear use c2,make entry use explosives,1
+open and clear use c2,breach with c2 and clear,1
+open and clear use c2,breach with c4 and clear,1
+open and clear use c2,breach with explosives and clear,1
+make entry use c2,make entry use c4,1
+make entry use c2,make entry use explosives,1
+make entry use c2,breach with c2 and clear,1
+make entry use c2,breach with c4 and clear,1
+make entry use c2,breach with explosives and clear,1
+make entry use c4,make entry use explosives,1
+make entry use c4,breach with c2 and clear,1
+make entry use c4,breach with c4 and clear,1
+make entry use c4,breach with explosives and clear,1
+make entry use explosives,breach with c2 and clear,1
+make entry use explosives,breach with c4 and clear,1
+make entry use explosives,breach with explosives and clear,1
+breach with c2 and clear,breach with c4 and clear,1
+breach with c2 and clear,breach with explosives and clear,1
+breach with c4 and clear,breach with explosives and clear,1
+open use charges,open use explosives,1
+open use charges,open use c4,1
+open use charges,open use c2,1
+open use charges,breach with c2,1
+open use charges,breach with c4,1
+open use charges,breach with explosives,1
+open use explosives,open use c4,1
+open use explosives,open use c2,1
+open use explosives,breach with c2,1
+open use explosives,breach with c4,1
+open use explosives,breach with explosives,1
+open use c4,open use c2,1
+open use c4,breach with c2,1
+open use c4,breach with c4,1
+open use c4,breach with explosives,1
+open use c2,breach with c2,1
+open use c2,breach with c4,1
+open use c2,breach with explosives,1
+breach with c2,breach with c4,1
+breach with c2,breach with explosives,1
+breach with c4,breach with explosives,1
+open and clear use shotgun,make entry use shotgun,1
+open and clear use shotgun,breach with shotgun and clear,1
+make entry use shotgun,breach with shotgun and clear,1
+open use shotgun,breach with shotgun,1
+kick the door and clear,make entry kick it,1
+kick the door,kick it,1
+open and clear use charges throw flashbang,open and clear use charges throw thunderflash,1
+open and clear use charges throw flashbang,open and clear with explosives use stun grenade,1
+open and clear use charges throw flashbang,open and clear with c4 use flashbang,1
+open and clear use charges throw flashbang,open and clear with c4 use stun grenade,1
+open and clear use charges throw flashbang,open and clear with c2 use flashbang,1
+open and clear use charges throw flashbang,make entry with c2 use stun grenade,1
+open and clear use charges throw flashbang,make entry with c4 use flashbang,1
+open and clear use charges throw flashbang,make entry with explosives use stun grenade,1
+open and clear use charges throw flashbang,breach with c2 and clear throw flashbang,1
+open and clear use charges throw flashbang,breach with c2 and clear throw stun grenade,1
+open and clear use charges throw flashbang,breach with c4 and clear throw flashbang,1
+open and clear use charges throw flashbang,breach with c4 and clear throw stun grenade,1
+open and clear use charges throw thunderflash,open and clear with explosives use stun grenade,1
+open and clear use charges throw thunderflash,open and clear with c4 use flashbang,1
+open and clear use charges throw thunderflash,open and clear with c4 use stun grenade,1
+open and clear use charges throw thunderflash,open and clear with c2 use flashbang,1
+open and clear use charges throw thunderflash,make entry with c2 use stun grenade,1
+open and clear use charges throw thunderflash,make entry with c4 use flashbang,1
+open and clear use charges throw thunderflash,make entry with explosives use stun grenade,1
+open and clear use charges throw thunderflash,breach with c2 and clear throw flashbang,1
+open and clear use charges throw thunderflash,breach with c2 and clear throw stun grenade,1
+open and clear use charges throw thunderflash,breach with c4 and clear throw flashbang,1
+open and clear use charges throw thunderflash,breach with c4 and clear throw stun grenade,1
+open and clear with explosives use stun grenade,open and clear with c4 use flashbang,1
+open and clear with explosives use stun grenade,open and clear with c4 use stun grenade,1
+open and clear with explosives use stun grenade,open and clear with c2 use flashbang,1
+open and clear with explosives use stun grenade,make entry with c2 use stun grenade,1
+open and clear with explosives use stun grenade,make entry with c4 use flashbang,1
+open and clear with explosives use stun grenade,make entry with explosives use stun grenade,1
+open and clear with explosives use stun grenade,breach with c2 and clear throw flashbang,1
+open and clear with explosives use stun grenade,breach with c2 and clear throw stun grenade,1
+open and clear with explosives use stun grenade,breach with c4 and clear throw flashbang,1
+open and clear with explosives use stun grenade,breach with c4 and clear throw stun grenade,1
+open and clear with c4 use flashbang,open and clear with c4 use stun grenade,1
+open and clear with c4 use flashbang,open and clear with c2 use flashbang,1
+open and clear with c4 use flashbang,make entry with c2 use stun grenade,1
+open and clear with c4 use flashbang,make entry with c4 use flashbang,1
+open and clear with c4 use flashbang,make entry with explosives use stun grenade,1
+open and clear with c4 use flashbang,breach with c2 and clear throw flashbang,1
+open and clear with c4 use flashbang,breach with c2 and clear throw stun grenade,1
+open and clear with c4 use flashbang,breach with c4 and clear throw flashbang,1
+open and clear with c4 use flashbang,breach with c4 and clear throw stun grenade,1
+open and clear with c4 use stun grenade,open and clear with c2 use flashbang,1
+open and clear with c4 use stun grenade,make entry with c2 use stun grenade,1
+open and clear with c4 use stun grenade,make entry with c4 use flashbang,1
+open and clear with c4 use stun grenade,make entry with explosives use stun grenade,1
+open and clear with c4 use stun grenade,breach with c2 and clear throw flashbang,1
+open and clear with c4 use stun grenade,breach with c2 and clear throw stun grenade,1
+open and clear with c4 use stun grenade,breach with c4 and clear throw flashbang,1
+open and clear with c4 use stun grenade,breach with c4 and clear throw stun grenade,1
+open and clear with c2 use flashbang,make entry with c2 use stun grenade,1
+open and clear with c2 use flashbang,make entry with c4 use flashbang,1
+open and clear with c2 use flashbang,make entry with explosives use stun grenade,1
+open and clear with c2 use flashbang,breach with c2 and clear throw flashbang,1
+open and clear with c2 use flashbang,breach with c2 and clear throw stun grenade,1
+open and clear with c2 use flashbang,breach with c4 and clear throw flashbang,1
+open and clear with c2 use flashbang,breach with c4 and clear throw stun grenade,1
+make entry with c2 use stun grenade,make entry with c4 use flashbang,1
+make entry with c2 use stun grenade,make entry with explosives use stun grenade,1
+make entry with c2 use stun grenade,breach with c2 and clear throw flashbang,1
+make entry with c2 use stun grenade,breach with c2 and clear throw stun grenade,1
+make entry with c2 use stun grenade,breach with c4 and clear throw flashbang,1
+make entry with c2 use stun grenade,breach with c4 and clear throw stun grenade,1
+make entry with c4 use flashbang,make entry with explosives use stun grenade,1
+make entry with c4 use flashbang,breach with c2 and clear throw flashbang,1
+make entry with c4 use flashbang,breach with c2 and clear throw stun grenade,1
+make entry with c4 use flashbang,breach with c4 and clear throw flashbang,1
+make entry with c4 use flashbang,breach with c4 and clear throw stun grenade,1
+make entry with explosives use stun grenade,breach with c2 and clear throw flashbang,1
+make entry with explosives use stun grenade,breach with c2 and clear throw stun grenade,1
+make entry with explosives use stun grenade,breach with c4 and clear throw flashbang,1
+make entry with explosives use stun grenade,breach with c4 and clear throw stun grenade,1
+breach with c2 and clear throw flashbang,breach with c2 and clear throw stun grenade,1
+breach with c2 and clear throw flashbang,breach with c4 and clear throw flashbang,1
+breach with c2 and clear throw flashbang,breach with c4 and clear throw stun grenade,1
+breach with c2 and clear throw stun grenade,breach with c4 and clear throw flashbang,1
+breach with c2 and clear throw stun grenade,breach with c4 and clear throw stun grenade,1
+breach with c4 and clear throw flashbang,breach with c4 and clear throw stun grenade,1
+open and clear use shotgun throw flashbang,open and clear use shotgun throw thunderflash,1
+open and clear use shotgun throw flashbang,open and clear with shotgun use stun grenade,1
+open and clear use shotgun throw flashbang,open and clear with shotgun use flashbang,1
+open and clear use shotgun throw flashbang,open and clear with shotgun use stun grenade,1
+open and clear use shotgun throw flashbang,make entry with shotgun use stun grenade,1
+open and clear use shotgun throw flashbang,make entry with shotgun use flashbang,1
+open and clear use shotgun throw flashbang,breach with shotgun and clear throw flashbang,1
+open and clear use shotgun throw flashbang,breach with shotgun and clear throw stun grenade,1
+open and clear use shotgun throw thunderflash,open and clear with shotgun use stun grenade,1
+open and clear use shotgun throw thunderflash,open and clear with shotgun use flashbang,1
+open and clear use shotgun throw thunderflash,open and clear with shotgun use stun grenade,1
+open and clear use shotgun throw thunderflash,make entry with shotgun use stun grenade,1
+open and clear use shotgun throw thunderflash,make entry with shotgun use flashbang,1
+open and clear use shotgun throw thunderflash,breach with shotgun and clear throw flashbang,1
+open and clear use shotgun throw thunderflash,breach with shotgun and clear throw stun grenade,1
+open and clear with shotgun use stun grenade,open and clear with shotgun use flashbang,1
+open and clear with shotgun use stun grenade,open and clear with shotgun use stun grenade,1
+open and clear with shotgun use stun grenade,make entry with shotgun use stun grenade,1
+open and clear with shotgun use stun grenade,make entry with shotgun use flashbang,1
+open and clear with shotgun use stun grenade,breach with shotgun and clear throw flashbang,1
+open and clear with shotgun use stun grenade,breach with shotgun and clear throw stun grenade,1
+open and clear with shotgun use flashbang,open and clear with shotgun use stun grenade,1
+open and clear with shotgun use flashbang,make entry with shotgun use stun grenade,1
+open and clear with shotgun use flashbang,make entry with shotgun use flashbang,1
+open and clear with shotgun use flashbang,breach with shotgun and clear throw flashbang,1
+open and clear with shotgun use flashbang,breach with shotgun and clear throw stun grenade,1
+open and clear with shotgun use stun grenade,make entry with shotgun use stun grenade,1
+open and clear with shotgun use stun grenade,make entry with shotgun use flashbang,1
+open and clear with shotgun use stun grenade,breach with shotgun and clear throw flashbang,1
+open and clear with shotgun use stun grenade,breach with shotgun and clear throw stun grenade,1
+make entry with shotgun use stun grenade,make entry with shotgun use flashbang,1
+make entry with shotgun use stun grenade,breach with shotgun and clear throw flashbang,1
+make entry with shotgun use stun grenade,breach with shotgun and clear throw stun grenade,1
+make entry with shotgun use flashbang,breach with shotgun and clear throw flashbang,1
+make entry with shotgun use flashbang,breach with shotgun and clear throw stun grenade,1
+breach with shotgun and clear throw flashbang,breach with shotgun and clear throw stun grenade,1
+kick and clear throw flashbang,kick and clear throw thunderflash,1
+kick and clear throw flashbang,kick and clear use stun grenade,1
+kick and clear throw flashbang,kick and clear use stun grenade,1
+kick and clear throw flashbang,make entry kick it use stun grenade,1
+kick and clear throw flashbang,make entry kick it use flashbang,1
+kick and clear throw thunderflash,kick and clear use stun grenade,1
+kick and clear throw thunderflash,kick and clear use stun grenade,1
+kick and clear throw thunderflash,make entry kick it use stun grenade,1
+kick and clear throw thunderflash,make entry kick it use flashbang,1
+kick and clear use stun grenade,kick and clear use stun grenade,1
+kick and clear use stun grenade,make entry kick it use stun grenade,1
+kick and clear use stun grenade,make entry kick it use flashbang,1
+kick and clear use stun grenade,make entry kick it use stun grenade,1
+kick and clear use stun grenade,make entry kick it use flashbang,1
+make entry kick it use stun grenade,make entry kick it use flashbang,1
+open and clear use charges throw stinger grenade,open and clear use charges throw stinger,1
+open and clear use charges throw stinger grenade,open and clear with explosives use stinger grenade,1
+open and clear use charges throw stinger grenade,open and clear with c2 use stinger,1
+open and clear use charges throw stinger grenade,open and clear with c4 use stinger,1
+open and clear use charges throw stinger grenade,make entry with c2 use stinger,1
+open and clear use charges throw stinger grenade,make entry with c4 use stinger,1
+open and clear use charges throw stinger grenade,make entry with explosives use stinger,1
+open and clear use charges throw stinger grenade,breach with c2 and clear throw stinger,1
+open and clear use charges throw stinger grenade,breach with c4 and clear throw stinger grenade,1
+open and clear use charges throw stinger grenade,breach with charges and clear throw stinger grenade,1
+open and clear use charges throw stinger,open and clear with explosives use stinger grenade,1
+open and clear use charges throw stinger,open and clear with c2 use stinger,1
+open and clear use charges throw stinger,open and clear with c4 use stinger,1
+open and clear use charges throw stinger,make entry with c2 use stinger,1
+open and clear use charges throw stinger,make entry with c4 use stinger,1
+open and clear use charges throw stinger,make entry with explosives use stinger,1
+open and clear use charges throw stinger,breach with c2 and clear throw stinger,1
+open and clear use charges throw stinger,breach with c4 and clear throw stinger grenade,1
+open and clear use charges throw stinger,breach with charges and clear throw stinger grenade,1
+open and clear with explosives use stinger grenade,open and clear with c2 use stinger,1
+open and clear with explosives use stinger grenade,open and clear with c4 use stinger,1
+open and clear with explosives use stinger grenade,make entry with c2 use stinger,1
+open and clear with explosives use stinger grenade,make entry with c4 use stinger,1
+open and clear with explosives use stinger grenade,make entry with explosives use stinger,1
+open and clear with explosives use stinger grenade,breach with c2 and clear throw stinger,1
+open and clear with explosives use stinger grenade,breach with c4 and clear throw stinger grenade,1
+open and clear with explosives use stinger grenade,breach with charges and clear throw stinger grenade,1
+open and clear with c2 use stinger,open and clear with c4 use stinger,1
+open and clear with c2 use stinger,make entry with c2 use stinger,1
+open and clear with c2 use stinger,make entry with c4 use stinger,1
+open and clear with c2 use stinger,make entry with explosives use stinger,1
+open and clear with c2 use stinger,breach with c2 and clear throw stinger,1
+open and clear with c2 use stinger,breach with c4 and clear throw stinger grenade,1
+open and clear with c2 use stinger,breach with charges and clear throw stinger grenade,1
+open and clear with c4 use stinger,make entry with c2 use stinger,1
+open and clear with c4 use stinger,make entry with c4 use stinger,1
+open and clear with c4 use stinger,make entry with explosives use stinger,1
+open and clear with c4 use stinger,breach with c2 and clear throw stinger,1
+open and clear with c4 use stinger,breach with c4 and clear throw stinger grenade,1
+open and clear with c4 use stinger,breach with charges and clear throw stinger grenade,1
+make entry with c2 use stinger,make entry with c4 use stinger,1
+make entry with c2 use stinger,make entry with explosives use stinger,1
+make entry with c2 use stinger,breach with c2 and clear throw stinger,1
+make entry with c2 use stinger,breach with c4 and clear throw stinger grenade,1
+make entry with c2 use stinger,breach with charges and clear throw stinger grenade,1
+make entry with c4 use stinger,make entry with explosives use stinger,1
+make entry with c4 use stinger,breach with c2 and clear throw stinger,1
+make entry with c4 use stinger,breach with c4 and clear throw stinger grenade,1
+make entry with c4 use stinger,breach with charges and clear throw stinger grenade,1
+make entry with explosives use stinger,breach with c2 and clear throw stinger,1
+make entry with explosives use stinger,breach with c4 and clear throw stinger grenade,1
+make entry with explosives use stinger,breach with charges and clear throw stinger grenade,1
+breach with c2 and clear throw stinger,breach with c4 and clear throw stinger grenade,1
+breach with c2 and clear throw stinger,breach with charges and clear throw stinger grenade,1
+breach with c4 and clear throw stinger grenade,breach with charges and clear throw stinger grenade,1
+open and clear use shotgun throw stinger,make entry with shotgun use stinger grenade,1
+open and clear use shotgun throw stinger,breach with shotgun and clear throw stinger,1
+make entry with shotgun use stinger grenade,breach with shotgun and clear throw stinger,1
+kick and clear throw stinger,make entry kick it use stinger grenade,1
+open and clear use charges throw tear gas,open and clear use charges throw cs,1
+open and clear use charges throw tear gas,open and clear with explosives use cs,1
+open and clear use charges throw tear gas,open and clear with explosives use tear gas,1
+open and clear use charges throw tear gas,open and clear with c2 use tear gas,1
+open and clear use charges throw tear gas,open and clear with c2 use cs,1
+open and clear use charges throw tear gas,open and clear with c4 use tear gas,1
+open and clear use charges throw tear gas,open and clear with c4 use cs,1
+open and clear use charges throw tear gas,make entry with c2 use cs,1
+open and clear use charges throw tear gas,make entry with c2 use tear gas,1
+open and clear use charges throw tear gas,make entry with c4 use cs,1
+open and clear use charges throw tear gas,make entry with c4 use tear gas,1
+open and clear use charges throw tear gas,make entry with explosives use tear gas,1
+open and clear use charges throw tear gas,make entry with explosives use cs,1
+open and clear use charges throw tear gas,breach with c2 and clear throw cs,1
+open and clear use charges throw tear gas,breach with c4 and clear throw tear gas,1
+open and clear use charges throw tear gas,breach with charges and clear throw cs,1
+open and clear use charges throw tear gas,breach with charges and clear throw tear gas,1
+open and clear use charges throw cs,open and clear with explosives use cs,1
+open and clear use charges throw cs,open and clear with explosives use tear gas,1
+open and clear use charges throw cs,open and clear with c2 use tear gas,1
+open and clear use charges throw cs,open and clear with c2 use cs,1
+open and clear use charges throw cs,open and clear with c4 use tear gas,1
+open and clear use charges throw cs,open and clear with c4 use cs,1
+open and clear use charges throw cs,make entry with c2 use cs,1
+open and clear use charges throw cs,make entry with c2 use tear gas,1
+open and clear use charges throw cs,make entry with c4 use cs,1
+open and clear use charges throw cs,make entry with c4 use tear gas,1
+open and clear use charges throw cs,make entry with explosives use tear gas,1
+open and clear use charges throw cs,make entry with explosives use cs,1
+open and clear use charges throw cs,breach with c2 and clear throw cs,1
+open and clear use charges throw cs,breach with c4 and clear throw tear gas,1
+open and clear use charges throw cs,breach with charges and clear throw cs,1
+open and clear use charges throw cs,breach with charges and clear throw tear gas,1
+open and clear with explosives use cs,open and clear with explosives use tear gas,1
+open and clear with explosives use cs,open and clear with c2 use tear gas,1
+open and clear with explosives use cs,open and clear with c2 use cs,1
+open and clear with explosives use cs,open and clear with c4 use tear gas,1
+open and clear with explosives use cs,open and clear with c4 use cs,1
+open and clear with explosives use cs,make entry with c2 use cs,1
+open and clear with explosives use cs,make entry with c2 use tear gas,1
+open and clear with explosives use cs,make entry with c4 use cs,1
+open and clear with explosives use cs,make entry with c4 use tear gas,1
+open and clear with explosives use cs,make entry with explosives use tear gas,1
+open and clear with explosives use cs,make entry with explosives use cs,1
+open and clear with explosives use cs,breach with c2 and clear throw cs,1
+open and clear with explosives use cs,breach with c4 and clear throw tear gas,1
+open and clear with explosives use cs,breach with charges and clear throw cs,1
+open and clear with explosives use cs,breach with charges and clear throw tear gas,1
+open and clear with explosives use tear gas,open and clear with c2 use tear gas,1
+open and clear with explosives use tear gas,open and clear with c2 use cs,1
+open and clear with explosives use tear gas,open and clear with c4 use tear gas,1
+open and clear with explosives use tear gas,open and clear with c4 use cs,1
+open and clear with explosives use tear gas,make entry with c2 use cs,1
+open and clear with explosives use tear gas,make entry with c2 use tear gas,1
+open and clear with explosives use tear gas,make entry with c4 use cs,1
+open and clear with explosives use tear gas,make entry with c4 use tear gas,1
+open and clear with explosives use tear gas,make entry with explosives use tear gas,1
+open and clear with explosives use tear gas,make entry with explosives use cs,1
+open and clear with explosives use tear gas,breach with c2 and clear throw cs,1
+open and clear with explosives use tear gas,breach with c4 and clear throw tear gas,1
+open and clear with explosives use tear gas,breach with charges and clear throw cs,1
+open and clear with explosives use tear gas,breach with charges and clear throw tear gas,1
+open and clear with c2 use tear gas,open and clear with c2 use cs,1
+open and clear with c2 use tear gas,open and clear with c4 use tear gas,1
+open and clear with c2 use tear gas,open and clear with c4 use cs,1
+open and clear with c2 use tear gas,make entry with c2 use cs,1
+open and clear with c2 use tear gas,make entry with c2 use tear gas,1
+open and clear with c2 use tear gas,make entry with c4 use cs,1
+open and clear with c2 use tear gas,make entry with c4 use tear gas,1
+open and clear with c2 use tear gas,make entry with explosives use tear gas,1
+open and clear with c2 use tear gas,make entry with explosives use cs,1
+open and clear with c2 use tear gas,breach with c2 and clear throw cs,1
+open and clear with c2 use tear gas,breach with c4 and clear throw tear gas,1
+open and clear with c2 use tear gas,breach with charges and clear throw cs,1
+open and clear with c2 use tear gas,breach with charges and clear throw tear gas,1
+open and clear with c2 use cs,open and clear with c4 use tear gas,1
+open and clear with c2 use cs,open and clear with c4 use cs,1
+open and clear with c2 use cs,make entry with c2 use cs,1
+open and clear with c2 use cs,make entry with c2 use tear gas,1
+open and clear with c2 use cs,make entry with c4 use cs,1
+open and clear with c2 use cs,make entry with c4 use tear gas,1
+open and clear with c2 use cs,make entry with explosives use tear gas,1
+open and clear with c2 use cs,make entry with explosives use cs,1
+open and clear with c2 use cs,breach with c2 and clear throw cs,1
+open and clear with c2 use cs,breach with c4 and clear throw tear gas,1
+open and clear with c2 use cs,breach with charges and clear throw cs,1
+open and clear with c2 use cs,breach with charges and clear throw tear gas,1
+open and clear with c4 use tear gas,open and clear with c4 use cs,1
+open and clear with c4 use tear gas,make entry with c2 use cs,1
+open and clear with c4 use tear gas,make entry with c2 use tear gas,1
+open and clear with c4 use tear gas,make entry with c4 use cs,1
+open and clear with c4 use tear gas,make entry with c4 use tear gas,1
+open and clear with c4 use tear gas,make entry with explosives use tear gas,1
+open and clear with c4 use tear gas,make entry with explosives use cs,1
+open and clear with c4 use tear gas,breach with c2 and clear throw cs,1
+open and clear with c4 use tear gas,breach with c4 and clear throw tear gas,1
+open and clear with c4 use tear gas,breach with charges and clear throw cs,1
+open and clear with c4 use tear gas,breach with charges and clear throw tear gas,1
+open and clear with c4 use cs,make entry with c2 use cs,1
+open and clear with c4 use cs,make entry with c2 use tear gas,1
+open and clear with c4 use cs,make entry with c4 use cs,1
+open and clear with c4 use cs,make entry with c4 use tear gas,1
+open and clear with c4 use cs,make entry with explosives use tear gas,1
+open and clear with c4 use cs,make entry with explosives use cs,1
+open and clear with c4 use cs,breach with c2 and clear throw cs,1
+open and clear with c4 use cs,breach with c4 and clear throw tear gas,1
+open and clear with c4 use cs,breach with charges and clear throw cs,1
+open and clear with c4 use cs,breach with charges and clear throw tear gas,1
+make entry with c2 use cs,make entry with c2 use tear gas,1
+make entry with c2 use cs,make entry with c4 use cs,1
+make entry with c2 use cs,make entry with c4 use tear gas,1
+make entry with c2 use cs,make entry with explosives use tear gas,1
+make entry with c2 use cs,make entry with explosives use cs,1
+make entry with c2 use cs,breach with c2 and clear throw cs,1
+make entry with c2 use cs,breach with c4 and clear throw tear gas,1
+make entry with c2 use cs,breach with charges and clear throw cs,1
+make entry with c2 use cs,breach with charges and clear throw tear gas,1
+make entry with c2 use tear gas,make entry with c4 use cs,1
+make entry with c2 use tear gas,make entry with c4 use tear gas,1
+make entry with c2 use tear gas,make entry with explosives use tear gas,1
+make entry with c2 use tear gas,make entry with explosives use cs,1
+make entry with c2 use tear gas,breach with c2 and clear throw cs,1
+make entry with c2 use tear gas,breach with c4 and clear throw tear gas,1
+make entry with c2 use tear gas,breach with charges and clear throw cs,1
+make entry with c2 use tear gas,breach with charges and clear throw tear gas,1
+make entry with c4 use cs,make entry with c4 use tear gas,1
+make entry with c4 use cs,make entry with explosives use tear gas,1
+make entry with c4 use cs,make entry with explosives use cs,1
+make entry with c4 use cs,breach with c2 and clear throw cs,1
+make entry with c4 use cs,breach with c4 and clear throw tear gas,1
+make entry with c4 use cs,breach with charges and clear throw cs,1
+make entry with c4 use cs,breach with charges and clear throw tear gas,1
+make entry with c4 use tear gas,make entry with explosives use tear gas,1
+make entry with c4 use tear gas,make entry with explosives use cs,1
+make entry with c4 use tear gas,breach with c2 and clear throw cs,1
+make entry with c4 use tear gas,breach with c4 and clear throw tear gas,1
+make entry with c4 use tear gas,breach with charges and clear throw cs,1
+make entry with c4 use tear gas,breach with charges and clear throw tear gas,1
+make entry with explosives use tear gas,make entry with explosives use cs,1
+make entry with explosives use tear gas,breach with c2 and clear throw cs,1
+make entry with explosives use tear gas,breach with c4 and clear throw tear gas,1
+make entry with explosives use tear gas,breach with charges and clear throw cs,1
+make entry with explosives use tear gas,breach with charges and clear throw tear gas,1
+make entry with explosives use cs,breach with c2 and clear throw cs,1
+make entry with explosives use cs,breach with c4 and clear throw tear gas,1
+make entry with explosives use cs,breach with charges and clear throw cs,1
+make entry with explosives use cs,breach with charges and clear throw tear gas,1
+breach with c2 and clear throw cs,breach with c4 and clear throw tear gas,1
+breach with c2 and clear throw cs,breach with charges and clear throw cs,1
+breach with c2 and clear throw cs,breach with charges and clear throw tear gas,1
+breach with c4 and clear throw tear gas,breach with charges and clear throw cs,1
+breach with c4 and clear throw tear gas,breach with charges and clear throw tear gas,1
+breach with charges and clear throw cs,breach with charges and clear throw tear gas,1
+open and clear use shotgun throw tear,open and clear use shotgun throw cs gas,1
+open and clear use shotgun throw tear,make entry with shotgun use tear gas,1
+open and clear use shotgun throw tear,make entry with shotgun use cs,1
+open and clear use shotgun throw tear,breach with shotgun and clear throw cs,1
+open and clear use shotgun throw tear,breach with shotgun and clear throw tear gas,1
+open and clear use shotgun throw cs gas,make entry with shotgun use tear gas,1
+open and clear use shotgun throw cs gas,make entry with shotgun use cs,1
+open and clear use shotgun throw cs gas,breach with shotgun and clear throw cs,1
+open and clear use shotgun throw cs gas,breach with shotgun and clear throw tear gas,1
+make entry with shotgun use tear gas,make entry with shotgun use cs,1
+make entry with shotgun use tear gas,breach with shotgun and clear throw cs,1
+make entry with shotgun use tear gas,breach with shotgun and clear throw tear gas,1
+make entry with shotgun use cs,breach with shotgun and clear throw cs,1
+make entry with shotgun use cs,breach with shotgun and clear throw tear gas,1
+breach with shotgun and clear throw cs,breach with shotgun and clear throw tear gas,1
+kick and clear throw tear gas,kick and clear throw cs,1
+kick and clear throw tear gas,make entry kick it use cs,1
+kick and clear throw tear gas,make entry kick it use tear gas,1
+kick and clear throw cs,make entry kick it use cs,1
+kick and clear throw cs,make entry kick it use tear gas,1
+make entry kick it use cs,make entry kick it use tear gas,1
+open the door,open it,1
+open the door,get the door,1
+open it,get the door,1
+mirror the door,snake it,1
+mirror the door,snake the door,1
+mirror the door,check for contacts,1
+mirror the door,use the optic wand,1
+mirror the door,wand it,1
+mirror the door,check under the door,1
+snake it,snake the door,1
+snake it,check for contacts,1
+snake it,use the optic wand,1
+snake it,wand it,1
+snake it,check under the door,1
+snake the door,check for contacts,1
+snake the door,use the optic wand,1
+snake the door,wand it,1
+snake the door,check under the door,1
+check for contacts,use the optic wand,1
+check for contacts,wand it,1
+check for contacts,check under the door,1
+use the optic wand,wand it,1
+use the optic wand,check under the door,1
+wand it,check under the door,1
+wedge the door,wedge it,1
+remove the wedge,pick up wedge,1
+stack up,stack up the door,1
+stack up,check the door,1
+stack up the door,check the door,1
+close the door,shut the door,1
+clear use flashbang,clear use stun grenade,1
+clear use flashbang,clear use thunderflash,1
+clear use flashbang,make entry use flashbang,1
+clear use flashbang,make entry throw flashbang,1
+clear use flashbang,clear throw stun grenade,1
+clear use stun grenade,clear use thunderflash,1
+clear use stun grenade,make entry use flashbang,1
+clear use stun grenade,make entry throw flashbang,1
+clear use stun grenade,clear throw stun grenade,1
+clear use thunderflash,make entry use flashbang,1
+clear use thunderflash,make entry throw flashbang,1
+clear use thunderflash,clear throw stun grenade,1
+make entry use flashbang,make entry throw flashbang,1
+make entry use flashbang,clear throw stun grenade,1
+make entry throw flashbang,clear throw stun grenade,1
+clear use tear gas,clear use cs gas,1
+clear use tear gas,clear use gas,1
+clear use tear gas,make entry use tear gas,1
+clear use tear gas,make entry throw cs,1
+clear use tear gas,clear throw tear gas,1
+clear use cs gas,clear use gas,1
+clear use cs gas,make entry use tear gas,1
+clear use cs gas,make entry throw cs,1
+clear use cs gas,clear throw tear gas,1
+clear use gas,make entry use tear gas,1
+clear use gas,make entry throw cs,1
+clear use gas,clear throw tear gas,1
+make entry use tear gas,make entry throw cs,1
+make entry use tear gas,clear throw tear gas,1
+make entry throw cs,clear throw tear gas,1
+clear use sting grenade,clear use stinger,1
+clear use sting grenade,make entry use stinger,1
+clear use sting grenade,make entry sting grenade,1
+clear use sting grenade,clear throw stinger,1
+clear use stinger,make entry use stinger,1
+clear use stinger,make entry sting grenade,1
+clear use stinger,clear throw stinger,1
+make entry use stinger,make entry sting grenade,1
+make entry use stinger,clear throw stinger,1
+make entry sting grenade,clear throw stinger,1
+throw flashbang,throw stun grenade,1
+throw flashbang,throw thunderflash,1
+throw flashbang,deploy thunderflash,1
+throw flashbang,deploy stun grenade,1
+throw flashbang,deploy flashbang,1
+throw stun grenade,throw thunderflash,1
+throw stun grenade,deploy thunderflash,1
+throw stun grenade,deploy stun grenade,1
+throw stun grenade,deploy flashbang,1
+throw thunderflash,deploy thunderflash,1
+throw thunderflash,deploy stun grenade,1
+throw thunderflash,deploy flashbang,1
+deploy thunderflash,deploy stun grenade,1
+deploy thunderflash,deploy flashbang,1
+deploy stun grenade,deploy flashbang,1
+throw tear gas,throw cs gas,1
+throw tear gas,deploy tear gas,1
+throw tear gas,deploy cs,1
+throw cs gas,deploy tear gas,1
+throw cs gas,deploy cs,1
+deploy tear gas,deploy cs,1
+throw sting grenade,deploy sting grenade,1
+fall in,follow me,1
+fall in,follow me,1
+fall in,group up,1
+follow me,follow me,1
+follow me,group up,1
+follow me,group up,1
+cover it,cover the area,1
+cover it,watch this corner,1
+cover it,guard it,1
+cover the area,watch this corner,1
+cover the area,guard it,1
+watch this corner,guard it,1
+move to,move to this position,1
+move to,go over there,1
+move to,go there,1
+move to this position,go over there,1
+move to this position,go there,1
+go over there,go there,1
+deploy chemlight,drop chemlight,1
+deploy shield,switch to shield,1
+fold shield,fold back shield,1
+fold shield,fold back shield,1
+secure the area,search and secure,1
+secure the area,collect everything,1
+secure the area,collect evidence,1
+secure the area,bag it,1
+secure the area,search and bag,1
+search and secure,collect everything,1
+search and secure,collect evidence,1
+search and secure,bag it,1
+search and secure,search and bag,1
+collect everything,collect evidence,1
+collect everything,bag it,1
+collect everything,search and bag,1
+collect evidence,bag it,1
+collect evidence,search and bag,1
+bag it,search and bag,1
+arrest him,arrest her,1
+arrest him,arrest suspect,1
+arrest him,arrest civilian,1
+arrest him,restrain him,1
+arrest him,restrain her,1
+arrest him,restrain suspect,1
+arrest him,restrain civilian,1
+arrest him,tie up civilian,1
+arrest him,tie up suspect,1
+arrest him,tie up,1
+arrest him,zip tie,1
+arrest her,arrest suspect,1
+arrest her,arrest civilian,1
+arrest her,restrain him,1
+arrest her,restrain her,1
+arrest her,restrain suspect,1
+arrest her,restrain civilian,1
+arrest her,tie up civilian,1
+arrest her,tie up suspect,1
+arrest her,tie up,1
+arrest her,zip tie,1
+arrest suspect,arrest civilian,1
+arrest suspect,restrain him,1
+arrest suspect,restrain her,1
+arrest suspect,restrain suspect,1
+arrest suspect,restrain civilian,1
+arrest suspect,tie up civilian,1
+arrest suspect,tie up suspect,1
+arrest suspect,tie up,1
+arrest suspect,zip tie,1
+arrest civilian,restrain him,1
+arrest civilian,restrain her,1
+arrest civilian,restrain suspect,1
+arrest civilian,restrain civilian,1
+arrest civilian,tie up civilian,1
+arrest civilian,tie up suspect,1
+arrest civilian,tie up,1
+arrest civilian,zip tie,1
+restrain him,restrain her,1
+restrain him,restrain suspect,1
+restrain him,restrain civilian,1
+restrain him,tie up civilian,1
+restrain him,tie up suspect,1
+restrain him,tie up,1
+restrain him,zip tie,1
+restrain her,restrain suspect,1
+restrain her,restrain civilian,1
+restrain her,tie up civilian,1
+restrain her,tie up suspect,1
+restrain her,tie up,1
+restrain her,zip tie,1
+restrain suspect,restrain civilian,1
+restrain suspect,tie up civilian,1
+restrain suspect,tie up suspect,1
+restrain suspect,tie up,1
+restrain suspect,zip tie,1
+restrain civilian,tie up civilian,1
+restrain civilian,tie up suspect,1
+restrain civilian,tie up,1
+restrain civilian,zip tie,1
+tie up civilian,tie up suspect,1
+tie up civilian,tie up,1
+tie up civilian,zip tie,1
+tie up suspect,tie up,1
+tie up suspect,zip tie,1
+tie up,zip tie,1
+dont move,hands up,1
+dont move,lspd dont move,1
+dont move,hands in the air,1
+dont move,police dont move,1
+dont move,show me your hands,1
+hands up,lspd dont move,1
+hands up,hands in the air,1
+hands up,police dont move,1
+hands up,show me your hands,1
+lspd dont move,hands in the air,1
+lspd dont move,police dont move,1
+lspd dont move,show me your hands,1
+hands in the air,police dont move,1
+hands in the air,show me your hands,1
+police dont move,show me your hands,1
+suspect hold,suspect stop,1
+execute,go go go,1
+hold position,halt,1
+hold position,hold,1
+halt,hold,1
+disarm trap,disarm it,1
+taser,tazer,1
+taser,taser him,1
+tazer,taser him,1
+pepper,pepper spray,1
+pepper,spray him,1
+pepper spray,spray him,1
+report to toc,report it,1
+open and clear use charges,throw cs gas,0
+go go go,open and clear with c2 use stinger,0
+check the door,collect everything,0
+make entry use stinger,stack up the door,0
+halt,make entry kick it,0
+turn around,bag it,0
+kick and clear throw stinger,deploy shield,0
+open and clear use thunderflash,make entry use stinger,0
+check the door,clear use tear gas,0
+kick the door and clear,open and clear with c4 use stinger,0
+breach with c2,check for contacts,0
+make entry kick it use flashbang,open it,0
+open and clear use stinger,clear use cs gas,0
+open and clear use shotgun throw flashbang,kick the door and clear,0
+suspect stop,clear throw tear gas,0
+throw sting grenade,clear use stinger,0
+suspect move to me,fold back shield,0
+remove the wedge,breach with shotgun and clear,0
+breach with shotgun and clear,clear use tear gas,0
+open and clear with explosives use stun grenade,clear throw stinger,0
+pepper spray,open and clear use c4,0
+make entry sting grenade,bag it,0
+kick it,make entry kick it use cs,0
+drop chemlight,make entry kick it use stinger grenade,0
+make entry kick it use tear gas,open and clear throw tear gas,0
+execute,check under the door,0
+clear use flashbang,move to,0
+make entry use tear gas,snake it,0
+switch to shield,make entry with shotgun use stun grenade,0
+suspect move to me,report it,0
+go go go,kick the door,0
+throw stun grenade,make entry with c4 use cs,0
+wand it,open it,0
+follow me,clear use tear gas,0
+arrest civilian,cover the area,0
+taser him,switch to shield,0
+report it,make entry with explosives use stun grenade,0
+clear use stinger,make entry kick it use stinger grenade,0
+open the door,turn around,0
+secure the area,throw sting grenade,0
+deploy chemlight,report it,0
+spray him,follow me,0
+report to toc,follow me,0
+tie up,pick up wedge,0
+switch to shield,open make entry,0
+clear use tear gas,turn around,0
+breach with c2,lspd dont move,0
+open it,clear throw stinger,0
+collect evidence,halt,0
+throw cs gas,execute,0
+make entry kick it use stun grenade,open and clear use c4,0
+wedge it,open and clear use shotgun throw cs gas,0
+kick and clear throw stinger,halt,0
+breach with explosives,suspect move to me,0
+clear throw stun grenade,taser,0
+shut the door,hold position,0
+disarm it,open and clear with c4 use stinger,0
+open and clear use shotgun throw stinger,turn around,0
+breach with shotgun and clear throw stinger,fold shield,0
+open and clear with shotgun use stun grenade,get the door,0
+stack up the door,drop chemlight,0
+suspect move to me,open and clear use thunderflash,0
+clear use thunderflash,breach with shotgun and clear throw tear gas,0
+make entry kick it use stinger grenade,breach with shotgun,0
+snake it,open make entry,0
+suspect hold,deploy flashbang,0
+open and clear use shotgun,close the door,0
+check under the door,open it,0
+tazer,make entry with c2 use stinger,0
+restrain civilian,breach with shotgun and clear throw flashbang,0
+deploy shield,kick the door,0
+make entry kick it,fold shield,0
+make entry kick it use flashbang,deploy chemlight,0
+execute,hold,0
+restrain her,open and clear use shotgun throw stinger,0
+go there,kick and clear throw stinger,0
+wedge it,clear throw stinger,0
+get the door,open and clear use explosives,0
+snake it,suspect hold,0
+make entry throw cs,drop chemlight,0
+dont move,pepper spray,0
+make entry kick it use stinger grenade,secure the area,0
+switch to shield,suspect stop,0
+throw tear gas,clear use gas,0
+open and clear throw tear gas,close the door,0
+fold shield,search and secure,0
+wedge the door,make entry with c4 use flashbang,0
+deploy cs,police dont move,0
+clear use stinger,spray him,0
+go there,open and clear use explosives,0
+suspect hold,open the door,0
+cover it,make entry kick it use stun grenade,0
+breach with shotgun and clear throw cs,breach with c2 and clear throw cs,0
+turn around,deploy cs,0
+open and clear use shotgun,fold shield,0
+open use c2,make entry sting grenade,0
+disarm trap,open the door,0
+open use c2,check the door,0
+make entry kick it use tear gas,open and clear use shotgun throw tear,0
+open and clear use thunderflash,drop chemlight,0
+breach with shotgun and clear throw flashbang,hold position,0
+open use charges,follow me,0
+check the door,fold back shield,0
+hold position,shut the door,0
+hold,open make entry,0
+open and clear use shotgun,make entry kick it use cs,0
+turn around,pepper,0
+pepper spray,make entry kick it use flashbang,0
+make entry sting grenade,breach with c4 and clear throw stinger grenade,0
+taser,deploy chemlight,0
+open the door and clear,restrain civilian,0
+make entry use flashbang,open and clear use shotgun,0
+open and clear use charges throw stinger grenade,tazer,0
+pick up wedge,open make entry,0
+turn around,kick and clear throw cs,0
+breach with shotgun,switch to shield,0
+move to this position,open and clear with explosives use stun grenade,0
+make entry kick it use stinger grenade,fold back shield,0
+open and clear throw tear gas,fold shield,0
+clear use sting grenade,open make entry,0
+wedge it,pepper spray,0
+make entry with shotgun use stinger grenade,kick and clear throw stinger,0
+make entry use flashbang,fold shield,0
+open and clear,wedge the door,0
+cover the area,stack up the door,0
+clear use gas,pick up wedge,0
+follow me,fold back shield,0
+deploy chemlight,make entry throw cs,0
+breach with shotgun and clear throw flashbang,deploy sting grenade,0
+open and clear use shotgun throw stinger,pepper spray,0
+throw sting grenade,drop chemlight,0
+fold back shield,open and clear throw tear gas,0
+execute,taser,0
+clear use stinger,pick up wedge,0
+open and clear use flashbang,clear throw tear gas,0
+check under the door,arrest him,0
+kick it,pepper,0
+open and clear with c4 use stun grenade,spray him,0
+throw sting grenade,turn around,0
+breach with c2 and clear,remove the wedge,0
+open make entry,clear use gas,0
+tie up civilian,make entry kick it use stinger grenade,0
+disarm trap,breach with charges and clear throw stinger grenade,0
+stack up,kick and clear throw stinger,0
+make entry kick it,open the door and clear,0
+kick and clear throw flashbang,clear use stinger,0
+breach with charges and clear throw tear gas,suspect move to me,0
+open the door and clear,breach with c4 and clear throw tear gas,0
+deploy sting grenade,make entry kick it use stun grenade,0
+switch to shield,breach with shotgun and clear throw stinger,0
+deploy tear gas,hold,0
+fold back shield,group up,0
+clear throw stun grenade,wedge it,0
+open and clear with shotgun use stun grenade,open and clear use c4,0
+breach with c4 and clear throw stinger grenade,deploy sting grenade,0
+hands up,group up,0
+kick the door and clear,arrest civilian,0
+breach with explosives and clear,throw stun grenade,0
+turn around,make entry kick it use stinger grenade,0
+clear use cs gas,follow me,0
+open and clear,report to toc,0
+make entry with shotgun use stinger grenade,pepper,0
+suspect hold,wedge the door,0
+wand it,suspect stop,0
+remove the wedge,open and clear use shotgun throw tear,0
+open and clear use gas,fold shield,0
+make entry with shotgun use cs,disarm trap,0
+suspect hold,clear use thunderflash,0
+check under the door,suspect hold,0
+make entry with shotgun use cs,open use shotgun,0
+arrest civilian,pick up wedge,0
+kick the door and clear,move to this position,0
+make entry use tear gas,open use shotgun,0
+open and clear throw stun grenade,stack up the door,0
+open and clear throw stun grenade,open and clear use c4,0
+open and clear use sting grenade,suspect stop,0
+suspect stop,make entry throw cs,0
+turn around,hands up,0
+make entry throw cs,breach with c2 and clear throw stinger,0
+clear use stinger,fold back shield,0
+fold back shield,open and clear use charges throw thunderflash,0
+throw cs gas,wedge the door,0
+taser him,police dont move,0
+make entry sting grenade,open make entry,0
+wand it,kick and clear use stun grenade,0
+open and clear use flashbang,disarm it,0
+suspect move to me,open and clear use c4,0
+clear use stinger,guard it,0
+throw stun grenade,stack up,0
+suspect hold,taser,0
+open and clear throw stun grenade,suspect move to me,0
+arrest her,open and clear use shotgun throw cs gas,0
+execute,turn around,0
+open and clear use stinger,make entry use flashbang,0
+police dont move,kick the door and clear,0
+make entry use stinger,move to,0
+pick up wedge,follow me,0
+kick and clear throw cs,make entry throw cs,0
+disarm trap,taser,0
+fold back shield,go over there,0
+zip tie,report to toc,0
+make entry kick it use stinger grenade,get the door,0
+fold shield,wand it,0
+taser him,make entry use stinger,0
+make entry kick it use cs,search and secure,0
+wedge the door,make entry kick it use stun grenade,0
+clear throw stun grenade,breach with shotgun and clear throw tear gas,0
+go over there,make entry use shotgun,0
+deploy chemlight,throw cs gas,0
+spray him,make entry kick it,0
+make entry kick it use cs,suspect stop,0
+move to this position,arrest civilian,0
+open use shotgun,taser,0
+make entry sting grenade,breach with c2,0
+pepper,switch to shield,0
+deploy shield,kick and clear throw tear gas,0
+make entry kick it use flashbang,halt,0
+make entry kick it use cs,stack up,0
+open and clear use shotgun throw flashbang,breach with shotgun,0
+suspect move to me,make entry use stinger,0
+move to this position,deploy cs,0
+kick and clear throw tear gas,switch to shield,0
+hands up,make entry use c4,0
+snake it,make entry kick it use tear gas,0
+make entry with shotgun use stun grenade,breach with c2 and clear throw cs,0
+make entry use c2,open and clear with shotgun use stun grenade,0
+turn around,hands in the air,0
+taser,follow me,0
+taser him,clear use flashbang,0
+deploy shield,deploy sting grenade,0
+open use c2,follow me,0
+police dont move,go go go,0
+breach with shotgun and clear throw stinger,turn around,0
+fold shield,make entry use flashbang,0
+breach with shotgun,make entry use explosives,0
+suspect move to me,remove the wedge,0
+open and clear use c4,make entry use tear gas,0
+watch this corner,fold shield,0
+fall in,disarm trap,0
+kick the door,open and clear use charges throw flashbang,0
+move to this position,pepper,0
+make entry use flashbang,kick and clear throw stinger,0
+make entry throw cs,make entry use shotgun,0
+disarm it,pepper,0
+hands in the air,mirror the door,0
+make entry kick it use stinger grenade,disarm trap,0
+suspect move to me,breach with c4,0
+open it,open and clear use tear gas,0
+breach with shotgun,go over there,0
+pepper spray,make entry with explosives use cs,0
+close the door,dont move,0
+taser,pick up wedge,0
+remove the wedge,go go go,0
+make entry use c2,pepper spray,0
+open it,make entry use flashbang,0
+make entry with c2 use stun grenade,dont move,0
+get the door,follow me,0
+open and clear with c4 use cs,fold back shield,0
+fold shield,get the door,0
+deploy chemlight,wedge the door,0
+throw sting grenade,deploy shield,0
+make entry with explosives use tear gas,make entry use shotgun,0
+spray him,make entry kick it use cs,0
+move to,open and clear use shotgun throw cs gas,0
+make entry throw flashbang,open the door and clear,0
+make entry use shotgun,deploy flashbang,0
+breach with explosives and clear,make entry use shotgun,0
+make entry use explosives,group up,0
+turn around,clear throw tear gas,0
+make entry sting grenade,kick and clear use stun grenade,0
+pick up wedge,tazer,0
+suspect hold,make entry sting grenade,0
+deploy chemlight,open and clear use stun grenade,0
+throw sting grenade,dont move,0
+breach with shotgun,open and clear use shotgun throw tear,0
+make entry kick it,make entry with shotgun use cs,0
+hold position,make entry kick it,0
+tie up,hold,0
+open and clear use shotgun throw stinger,wand it,0
+breach with shotgun and clear,kick the door,0
+clear use tear gas,open and clear,0
+check for contacts,breach with shotgun and clear throw tear gas,0
+kick and clear throw stinger,suspect move to me,0
+watch this corner,make entry with explosives use stinger,0
+search and bag,wedge it,0
+pepper,open use shotgun,0
+throw sting grenade,shut the door,0
+open the door and clear,switch to shield,0
+report it,make entry with shotgun use tear gas,0
+pepper spray,follow me,0
+make entry with shotgun use cs,snake the door,0
+remove the wedge,pepper,0
+make entry with c4 use stinger,hands up,0
+make entry throw cs,report it,0
+open and clear throw tear gas,drop chemlight,0
+go go go,suspect stop,0
+execute,open and clear use stinger,0
+breach with explosives,kick and clear use stun grenade,0
+pick up wedge,switch to shield,0
+disarm it,arrest him,0
+hands up,breach with explosives and clear,0
+wedge the door,taser him,0
+open and clear throw tear gas,turn around,0
+collect evidence,clear use flashbang,0
+stack up the door,open and clear,0
+deploy sting grenade,wedge the door,0
+suspect stop,wedge the door,0
+wedge it,get the door,0
+make entry kick it use stinger grenade,search and bag,0
+make entry use stinger,fold back shield,0
+kick and clear throw thunderflash,cover the area,0
+make entry with shotgun use cs,open the door and clear,0
+remove the wedge,turn around,0
+shut the door,switch to shield,0
+check under the door,report it,0
+execute,breach with shotgun,0
+remove the wedge,mirror the door,0
+suspect stop,go go go,0
+open use shotgun,wedge it,0
+make entry with shotgun use flashbang,make entry with shotgun use stinger grenade,0
+open and clear use shotgun throw cs gas,secure the area,0
+fold shield,open the door,0
+breach with charges and clear throw tear gas,open make entry,0
+open and clear throw stun grenade,make entry sting grenade,0
+taser him,go there,0
+make entry throw flashbang,show me your hands,0
+open and clear use shotgun throw thunderflash,deploy cs,0
+open and clear use charges throw tear gas,open use shotgun,0
+make entry use flashbang,arrest him,0
+report it,throw stun grenade,0
+open and clear use shotgun throw cs gas,make entry with c4 use flashbang,0
+make entry kick it use cs,fall in,0
+make entry kick it use stun grenade,make entry with c2 use stun grenade,0
+breach with shotgun,go go go,0
+open and clear use gas,turn around,0
+open and clear use charges throw stinger,make entry kick it use tear gas,0
+fold back shield,pepper,0
+deploy chemlight,go there,0
+fold shield,search and bag,0
+throw thunderflash,kick and clear throw stinger,0
+pick up wedge,open and clear throw tear gas,0
+make entry use c2,disarm it,0
+check the door,collect evidence,0
+follow me,remove the wedge,0
+make entry use tear gas,cover it,0
+show me your hands,halt,0
+secure the area,open and clear throw stinger,0
+kick and clear throw cs,report to toc,0
+kick and clear use stun grenade,report to toc,0
+clear use gas,breach with explosives,0
+go over there,make entry kick it,0
+clear use gas,stack up the door,0
+group up,open it,0
+open and clear use shotgun throw thunderflash,show me your hands,0
+spray him,open and clear with c4 use flashbang,0
+close the door,open and clear,0
+make entry sting grenade,switch to shield,0
+kick and clear throw tear gas,taser him,0
+breach with explosives,tazer,0
+deploy sting grenade,open use explosives,0
+deploy tear gas,pepper spray,0
+follow me,wedge the door,0
+make entry with c4 use stinger,shut the door,0
+open and clear use gas,zip tie,0
+drop chemlight,make entry use stinger,0
+make entry use flashbang,clear use tear gas,0
+suspect move to me,wedge it,0
+execute,fold back shield,0
+make entry use shotgun,open and clear use stun grenade,0
+deploy thunderflash,make entry with c2 use stinger,0
+open and clear use c4,shut the door,0
+make entry use shotgun,watch this corner,0
+open use explosives,suspect move to me,0
+deploy tear gas,search and secure,0
+watch this corner,kick and clear throw cs,0
+kick the door,stack up,0
+throw sting grenade,open and clear,0
+throw cs gas,breach with shotgun and clear throw stun grenade,0
+disarm trap,throw sting grenade,0
+deploy shield,make entry use shotgun,0
+open and clear use shotgun,clear throw tear gas,0
+deploy flashbang,kick it,0
+kick the door,breach with shotgun and clear throw stun grenade,0
+deploy sting grenade,open and clear with shotgun use flashbang,0
+move to,secure the area,0
+open use shotgun,arrest her,0
+disarm it,shut the door,0
+deploy cs,fold back shield,0
+make entry use stinger,execute,0
+remove the wedge,breach with c4 and clear throw tear gas,0
+open use shotgun,make entry with shotgun use stinger grenade,0
+breach with shotgun and clear,hold position,0
+breach with shotgun,drop chemlight,0
+kick and clear throw cs,turn around,0
+open use c4,make entry with c2 use cs,0
+disarm it,pick up wedge,0
+make entry use shotgun,report to toc,0
+clear use tear gas,stack up the door,0
+breach with shotgun,check the door,0
+secure the area,show me your hands,0
+open and clear with explosives use tear gas,go go go,0
+deploy thunderflash,report it,0
+clear use stinger,clear use flashbang,0
+report to toc,check the door,0
+disarm it,halt,0
+secure the area,drop chemlight,0
+breach with c2 and clear throw stun grenade,halt,0
+deploy sting grenade,zip tie,0
+execute,wand it,0
+tie up civilian,make entry kick it,0
+pick up wedge,make entry kick it use cs,0
+clear use gas,open and clear use stun grenade,0
+make entry kick it use stinger grenade,move to this position,0
+fold back shield,breach with c2,0
+clear throw stinger,make entry kick it use stinger grenade,0
+close the door,deploy flashbang,0
+report it,halt,0
+collect everything,clear use cs gas,0
+open use c2,go over there,0
+breach with shotgun,make entry kick it use stinger grenade,0
+turn around,make entry throw cs,0
+suspect stop,wedge it,0
+open and clear with c2 use stinger,kick and clear throw stinger,0
+open and clear throw stun grenade,throw sting grenade,0
+make entry sting grenade,close the door,0
+cover the area,fold back shield,0
+open and clear use stun grenade,kick and clear throw stinger,0
+wedge the door,go there,0
+suspect hold,tazer,0
+make entry with shotgun use stinger grenade,use the optic wand,0
+open use explosives,report to toc,0
+follow me,open and clear use shotgun throw cs gas,0
+kick and clear throw stinger,kick it,0
+breach with shotgun,hands up,0
+breach with c4,report to toc,0
+arrest suspect,tazer,0
+fold shield,deploy cs,0
+breach with charges and clear throw tear gas,disarm it,0
+hands up,suspect stop,0
+kick and clear throw stinger,collect everything,0
+open it,open and clear use charges throw flashbang,0
+show me your hands,use the optic wand,0
+suspect hold,breach with shotgun and clear,0
+turn around,fold shield,0
+disarm it,open and clear with c2 use flashbang,0
+open make entry,clear use flashbang,0
+dont move,cover it,0
+make entry kick it use flashbang,kick the door and clear,0
+fold shield,move to this position,0
+open and clear use thunderflash,taser him,0
+make entry kick it use stinger grenade,deploy chemlight,0
+make entry with shotgun use stun grenade,disarm it,0
+go over there,open use c2,0
+arrest suspect,make entry kick it use tear gas,0
+spray him,kick it,0
+make entry sting grenade,fold shield,0
+make entry use explosives,deploy chemlight,0
+move to,open and clear use charges throw stinger,0
+clear throw stun grenade,bag it,0
+breach with shotgun,clear use tear gas,0
+drop chemlight,turn around,0
+fold back shield,follow me,0
+wedge the door,open and clear with explosives use tear gas,0
+close the door,stack up the door,0
+make entry use stinger,tie up suspect,0
+remove the wedge,fold back shield,0
+kick the door,wand it,0
+switch to shield,check the door,0
+make entry throw cs,kick the door and clear,0
+breach with c4 and clear throw tear gas,move to,0
+police dont move,open and clear with c2 use flashbang,0
+fold shield,make entry sting grenade,0
+kick it,fold shield,0
+fold back shield,shut the door,0
+suspect move to me,breach with shotgun and clear throw stinger,0
+follow me,wedge it,0
+tie up,stack up,0
+open and clear use explosives,kick and clear throw flashbang,0
+make entry with shotgun use cs,kick and clear use stun grenade,0
+close the door,suspect move to me,0
+snake it,drop chemlight,0
+restrain her,make entry kick it use flashbang,0
+open and clear use thunderflash,remove the wedge,0
+suspect hold,get the door,0
+make entry kick it use flashbang,report to toc,0
+throw sting grenade,stack up the door,0
+breach with shotgun and clear throw stun grenade,kick and clear use stun grenade,0
+breach with explosives and clear,kick the door and clear,0
+fold shield,clear throw stun grenade,0
+make entry use tear gas,follow me,0
+wedge it,kick and clear throw tear gas,0
+throw sting grenade,suspect move to me,0
+open and clear use shotgun throw stinger,breach with c4 and clear,0
+make entry use shotgun,pepper spray,0
+breach with shotgun and clear,breach with shotgun and clear throw tear gas,0
+breach with c4 and clear throw stun grenade,kick and clear throw stinger,0
+open and clear,open and clear use shotgun throw flashbang,0
+throw sting grenade,make entry use stinger,0
+check the door,breach with shotgun,0
+breach with c2 and clear,disarm trap,0
+clear use gas,wedge it,0
+clear use cs gas,turn around,0
+report to toc,shut the door,0
+open and clear use sting grenade,open and clear with c4 use flashbang,0
+kick it,throw cs gas,0
+make entry use shotgun,throw thunderflash,0
+report it,make entry kick it use stun grenade,0
+secure the area,shut the door,0
+pepper,throw stun grenade,0
+open and clear use shotgun throw tear,suspect hold,0
+switch to shield,open use charges,0
+cover the area,disarm trap,0
+pepper,breach with c2,0
+make entry kick it use flashbang,turn around,0
+fold shield,open and clear use sting grenade,0
+check the door,snake it,0
+open it,open and clear with shotgun use stun grenade,0
+pick up wedge,kick and clear throw cs,0
+suspect move to me,make entry use flashbang,0
+halt,breach with explosives,0
+open and clear with explosives use tear gas,clear use gas,0
+open make entry,open and clear with shotgun use flashbang,0
+breach with shotgun and clear throw flashbang,open the door and clear,0
+wedge the door,make entry with shotgun use stinger grenade,0
+use the optic wand,open and clear use thunderflash,0
+kick the door,disarm trap,0
+open use shotgun,make entry with shotgun use flashbang,0
+kick the door,open use shotgun,0
+breach with c4,collect everything,0
+deploy chemlight,make entry use flashbang,0
+halt,throw cs gas,0
+kick and clear throw stinger,fold back shield,0
+stack up the door,go there,0
+breach with c4,make entry use c2,0
+deploy tear gas,open use shotgun,0
+make entry use explosives,kick and clear use stun grenade,0
+pick up wedge,make entry with shotgun use tear gas,0
+make entry throw cs,cover the area,0
+make entry with shotgun use stinger grenade,make entry use stinger,0
+shut the door,make entry with c2 use cs,0
+open and clear use shotgun throw cs gas,remove the wedge,0
+make entry throw cs,turn around,0
+breach with shotgun and clear throw stinger,search and bag,0
+arrest civilian,wedge it,0
+fold shield,suspect stop,0
+hold position,dont move,0
+close the door,hold position,0
+open and clear use charges,breach with c4 and clear throw stinger grenade,0
+open and clear use stinger,follow me,0
+open and clear with c2 use stinger,clear use gas,0
+deploy cs,suspect move to me,0
+open and clear use stinger,snake it,0
+open and clear use cs gas,fold shield,0
+open and clear use charges throw tear gas,restrain civilian,0
+halt,remove the wedge,0
+suspect hold,open and clear use shotgun throw thunderflash,0
+taser,turn around,0
+drop chemlight,dont move,0
+make entry kick it use stinger grenade,make entry use shotgun,0
+open it,breach with shotgun and clear throw tear gas,0
+show me your hands,kick the door and clear,0
+pick up wedge,make entry with shotgun use cs,0
+make entry use c2,make entry throw flashbang,0
+open and clear,snake the door,0
+breach with shotgun and clear throw stinger,open and clear use charges throw stinger grenade,0
+make entry with c4 use stinger,suspect move to me,0
+open and clear with c2 use cs,breach with shotgun and clear,0
+suspect stop,open and clear,0
+kick and clear throw thunderflash,deploy flashbang,0
+clear use thunderflash,halt,0
+make entry kick it use flashbang,kick it,0
+kick the door and clear,open use c2,0
+restrain suspect,throw thunderflash,0
+breach with shotgun and clear throw stinger,remove the wedge,0
+shut the door,make entry kick it use stinger grenade,0
+open and clear use shotgun throw stinger,open and clear use sting grenade,0
+breach with c4 and clear throw stun grenade,make entry kick it use stinger grenade,0
+breach with shotgun and clear,tazer,0
+make entry sting grenade,kick and clear throw cs,0
+deploy chemlight,make entry with shotgun use flashbang,0
+kick and clear use stun grenade,open and clear,0
+throw sting grenade,cover the area,0
+make entry kick it use stinger grenade,tazer,0
+report it,taser him,0
+disarm it,suspect move to me,0
+clear use sting grenade,breach with c2,0
+kick the door and clear,go go go,0
+deploy sting grenade,get the door,0
+clear use tear gas,stack up,0
+open and clear use stinger,disarm it,0
+fold back shield,restrain him,0
+stack up the door,pepper spray,0
+breach with shotgun and clear,deploy tear gas,0
+arrest civilian,breach with shotgun,0
+make entry kick it use stun grenade,deploy cs,0
+tazer,get the door,0
+open and clear use c4,remove the wedge,0
+open and clear use stun grenade,pick up wedge,0
+throw sting grenade,open and clear use shotgun throw cs gas,0
+clear use stinger,make entry with c4 use flashbang,0
+open and clear with c2 use flashbang,wedge it,0
+make entry with c4 use stinger,wedge the door,0
+pepper spray,check the door,0
+make entry kick it use stinger grenade,make entry kick it use tear gas,0
+make entry with shotgun use stinger grenade,kick and clear throw flashbang,0
+pepper spray,mirror the door,0
+pick up wedge,hands in the air,0
+suspect move to me,kick the door,0
+wedge the door,open and clear use charges throw stinger,0
+kick and clear throw thunderflash,open and clear use shotgun throw thunderflash,0
+clear use tear gas,make entry with shotgun use stinger grenade,0
+fold back shield,make entry throw cs,0
+turn around,clear throw stinger,0
+kick it,turn around,0
+make entry use stinger,clear use cs gas,0
+deploy shield,open and clear throw stinger,0
+open and clear use shotgun,kick the door and clear,0
+make entry use flashbang,throw cs gas,0
+wedge the door,make entry use flashbang,0
+make entry use flashbang,hold,0
+move to this position,wedge the door,0
+open make entry,dont move,0
+deploy sting grenade,disarm trap,0
+make entry kick it use tear gas,open use c4,0
+close the door,wedge it,0
+breach with shotgun,execute,0
+taser him,stack up the door,0
+breach with c4,fold back shield,0
+go go go,drop chemlight,0
+close the door,breach with c4 and clear throw flashbang,0
+stack up the door,make entry with shotgun use stinger grenade,0
+deploy cs,open use explosives,0
+tazer,open and clear with c2 use stinger,0
+open and clear use tear gas,suspect move to me,0
+suspect hold,open and clear throw stinger,0
+remove the wedge,make entry use stinger,0
+fold shield,deploy tear gas,0
+kick the door and clear,drop chemlight,0
+turn around,collect everything,0
+shut the door,deploy shield,0
+open and clear throw tear gas,breach with c4,0
+open the door and clear,pick up wedge,0
+check the door,kick and clear throw thunderflash,0
+hold,pick up wedge,0
+disarm trap,kick and clear throw stinger,0
+breach with shotgun and clear throw tear gas,open the door,0
+kick and clear throw flashbang,wedge the door,0
+pick up wedge,shut the door,0
+kick the door and clear,turn around,0
+report it,watch this corner,0
+use the optic wand,police dont move,0
+breach with explosives and clear,deploy shield,0
+go there,clear use tear gas,0
+move to,hold position,0
+make entry with explosives use tear gas,tie up,0
+open use explosives,wand it,0
+collect everything,breach with charges and clear throw tear gas,0
+breach with c2 and clear throw flashbang,fold back shield,0
+wedge the door,open and clear throw tear gas,0
+wand it,secure the area,0
+remove the wedge,open use c2,0
+report it,taser,0
+search and secure,hands in the air,0
+breach with shotgun,check under the door,0
+breach with charges and clear throw tear gas,open it,0
+taser him,wedge the door,0
+deploy shield,drop chemlight,0
+go there,open and clear use stinger,0
+search and bag,drop chemlight,0
+clear use flashbang,disarm trap,0
+make entry use c2,suspect hold,0
+breach with explosives and clear,shut the door,0
+clear throw stun grenade,follow me,0
+go over there,fold back shield,0
+hold position,make entry kick it use stun grenade,0
+make entry use shotgun,open use shotgun,0
+make entry kick it use stinger grenade,group up,0
+kick it,move to,0
+cover the area,move to this position,0
+restrain civilian,breach with shotgun,0
+open the door and clear,fold back shield,0
+kick the door,deploy cs,0
+move to,deploy sting grenade,0
+wedge it,open and clear with c4 use stun grenade,0
+make entry with shotgun use flashbang,hands up,0
+suspect move to me,open the door and clear,0
+bag it,go go go,0
+get the door,shut the door,0
+deploy flashbang,watch this corner,0
+close the door,make entry with shotgun use stinger grenade,0
+drop chemlight,execute,0
+open and clear use tear gas,taser,0
+breach with charges and clear throw tear gas,pepper,0
+disarm it,open and clear with shotgun use flashbang,0
+deploy shield,make entry kick it use stinger grenade,0
+wedge the door,breach with charges and clear throw tear gas,0
+clear use stun grenade,go there,0
+execute,throw flashbang,0
+check the door,go over there,0
+breach with shotgun,breach with explosives,0
+make entry kick it use stinger grenade,open and clear use shotgun,0
+stack up the door,open and clear with c4 use stun grenade,0
+open and clear throw stun grenade,open it,0
+make entry with shotgun use stun grenade,make entry use tear gas,0
+suspect move to me,make entry throw flashbang,0
+turn around,secure the area,0
+pick up wedge,report it,0
+fold back shield,open use c2,0
+kick and clear use stun grenade,suspect move to me,0
+deploy flashbang,open and clear use charges throw flashbang,0
+open and clear use shotgun throw stinger,switch to shield,0
+breach with charges and clear throw tear gas,check the door,0
+open use c2,fold back shield,0
+suspect move to me,open it,0
+kick it,breach with shotgun,0
+fold back shield,wedge the door,0
+throw sting grenade,secure the area,0
+breach with shotgun,suspect move to me,0
+drop chemlight,deploy flashbang,0
+check under the door,fold back shield,0
+make entry with explosives use stun grenade,wedge the door,0
+execute,deploy thunderflash,0
+taser him,move to this position,0
+breach with c4 and clear throw stinger grenade,follow me,0
+go over there,open and clear,0
+make entry use flashbang,turn around,0
+open and clear with c2 use stinger,make entry kick it,0
+open it,open use shotgun,0
+halt,throw thunderflash,0
+remove the wedge,kick and clear throw tear gas,0
+remove the wedge,cover the area,0
+kick and clear use stun grenade,snake the door,0
+open and clear with explosives use cs,disarm trap,0
+get the door,fold back shield,0
+make entry use explosives,make entry kick it use cs,0
+breach with shotgun and clear,bag it,0
+make entry throw flashbang,kick and clear throw flashbang,0
+tazer,collect evidence,0
+report to toc,remove the wedge,0
+kick and clear throw stinger,clear use thunderflash,0
+open and clear use explosives,lspd dont move,0
+turn around,fold back shield,0
+kick the door,make entry kick it use stinger grenade,0
+breach with shotgun,open use c2,0
+breach with shotgun,breach with c4,0
+make entry sting grenade,make entry with c2 use stinger,0
+report to toc,kick the door and clear,0
+open and clear with explosives use stun grenade,go over there,0
+clear use stinger,open and clear use shotgun throw flashbang,0
+open the door,open use shotgun,0
+make entry with shotgun use stun grenade,make entry kick it use stinger grenade,0
+clear use cs gas,lspd dont move,0
+disarm it,breach with c4 and clear throw flashbang,0
+make entry with shotgun use cs,kick and clear throw stinger,0
+clear use stun grenade,move to,0
+open make entry,execute,0
+taser,restrain her,0
+open and clear with c2 use stinger,fold shield,0
+make entry throw cs,check for contacts,0
+suspect stop,deploy stun grenade,0
+make entry kick it use stinger grenade,make entry with explosives use stinger,0
+open and clear use explosives,make entry with shotgun use flashbang,0
+suspect move to me,check the door,0
+open and clear use charges throw stinger grenade,kick the door and clear,0
+clear use tear gas,group up,0
+taser,make entry use flashbang,0
+make entry with c2 use stinger,fall in,0
+open use shotgun,suspect hold,0
+spray him,go go go,0
+report to toc,go go go,0
+open and clear throw tear gas,wedge it,0
+open and clear use shotgun throw tear,clear use stinger,0
+suspect hold,hands in the air,0
+remove the wedge,make entry with shotgun use stun grenade,0
+hold position,suspect move to me,0
+spray him,taser,0
+stack up the door,disarm trap,0
+suspect move to me,clear throw stun grenade,0
+deploy tear gas,open and clear use sting grenade,0
+make entry kick it use tear gas,breach with shotgun and clear throw stun grenade,0
+remove the wedge,clear use cs gas,0
+stack up,secure the area,0
+breach with c2 and clear throw cs,halt,0
+open and clear use shotgun throw stinger,open and clear with c4 use stinger,0
+kick and clear throw stinger,hold position,0
+breach with c2,spray him,0
+report it,pepper spray,0
+wedge the door,open the door and clear,0
+spray him,report to toc,0
+throw cs gas,make entry with explosives use cs,0
+group up,report to toc,0
+police dont move,suspect hold,0
+open the door,kick the door,0
+hands up,make entry with shotgun use tear gas,0
+turn around,open and clear,0
+make entry with shotgun use cs,make entry use tear gas,0
+report it,open and clear use stinger,0
+make entry use c2,breach with shotgun and clear,0
+disarm it,breach with shotgun and clear throw stun grenade,0
+execute,breach with charges and clear throw cs,0
+make entry kick it use flashbang,open and clear use shotgun throw flashbang,0
+make entry kick it use stun grenade,guard it,0
+clear use sting grenade,open and clear with c2 use tear gas,0
+bag it,kick it,0
+make entry sting grenade,open and clear,0
+check the door,open and clear with c4 use flashbang,0
+deploy shield,halt,0
+hold,fold shield,0
+breach with c4 and clear throw flashbang,open and clear use thunderflash,0
+get the door,make entry kick it use stun grenade,0
+suspect stop,make entry sting grenade,0
+get the door,execute,0
+make entry with c2 use cs,kick the door and clear,0
+clear use thunderflash,kick and clear throw stinger,0
+throw stun grenade,make entry throw cs,0
+switch to shield,kick the door and clear,0
+fall in,cover it,0
+clear use cs gas,search and bag,0
+open the door,clear use stinger,0
+clear use cs gas,open and clear use gas,0
+drop chemlight,clear use thunderflash,0
+kick the door and clear,report it,0
+open and clear with c2 use tear gas,pick up wedge,0
+make entry kick it use flashbang,open and clear use shotgun throw thunderflash,0
+report to toc,turn around,0
+mirror the door,check the door,0
+check the door,pepper,0
+make entry kick it use cs,make entry kick it,0
+clear throw stun grenade,make entry kick it,0
+breach with shotgun and clear throw stun grenade,deploy chemlight,0
+collect everything,clear throw stun grenade,0
+make entry with shotgun use tear gas,deploy sting grenade,0
+breach with shotgun and clear,pepper,0
+kick and clear throw flashbang,make entry with shotgun use stinger grenade,0
+suspect move to me,suspect stop,0
+drop chemlight,taser,0
+pepper,open and clear use stun grenade,0
+drop chemlight,throw tear gas,0
+make entry use flashbang,make entry with shotgun use stinger grenade,0
+make entry kick it use stinger grenade,pepper,0
+breach with shotgun,open and clear use cs gas,0
+breach with shotgun and clear throw stun grenade,make entry kick it use stinger grenade,0
+fold shield,make entry throw flashbang,0
+go go go,open and clear,0
+disarm it,breach with shotgun and clear throw stinger,0
+deploy shield,report it,0
+spray him,open and clear use cs gas,0
+move to this position,fold back shield,0
+bag it,breach with shotgun,0
+tazer,wedge it,0
+restrain him,open and clear throw stinger,0
+remove the wedge,make entry with shotgun use stinger grenade,0
+go over there,suspect move to me,0
+fall in,drop chemlight,0
+kick the door and clear,open and clear,0
+open and clear with shotgun use flashbang,suspect move to me,0
+open and clear with shotgun use stun grenade,pick up wedge,0
+dont move,open use c4,0
+open make entry,breach with charges and clear throw stinger grenade,0
+deploy flashbang,throw sting grenade,0
+pick up wedge,police dont move,0
+search and bag,switch to shield,0
+use the optic wand,breach with shotgun,0
+watch this corner,open make entry,0
+throw flashbang,spray him,0
+make entry with explosives use cs,make entry with shotgun use stun grenade,0
+throw cs gas,disarm it,0
+halt,get the door,0
+report it,fold back shield,0
+deploy sting grenade,suspect hold,0
+cover the area,tazer,0
+move to,wand it,0
+make entry throw flashbang,arrest her,0
+make entry throw cs,suspect move to me,0
+clear use thunderflash,turn around,0
+make entry use stinger,fold shield,0
+arrest suspect,report it,0
+open and clear throw stinger,make entry with explosives use stinger,0
+clear use cs gas,watch this corner,0
+breach with c2 and clear,switch to shield,0
+throw thunderflash,kick it,0
+make entry kick it,make entry use flashbang,0
+make entry use shotgun,deploy chemlight,0
+make entry throw cs,breach with charges and clear throw stinger grenade,0
+move to,switch to shield,0
+make entry kick it use tear gas,open and clear,0
+deploy tear gas,tazer,0
+shut the door,suspect move to me,0
+hold,wedge the door,0
+breach with c4 and clear,suspect stop,0
+kick and clear throw tear gas,move to this position,0
+open and clear use sting grenade,make entry use stinger,0
+throw sting grenade,kick the door,0
+disarm trap,switch to shield,0
+suspect move to me,make entry use shotgun,0
+stack up,make entry kick it use stun grenade,0
+shut the door,make entry use stinger,0
+get the door,search and bag,0
+make entry throw flashbang,open and clear use charges throw tear gas,0
+make entry with shotgun use stinger grenade,breach with c2 and clear throw flashbang,0
+wedge it,kick and clear throw stinger,0
+throw stun grenade,make entry use stinger,0
+wedge it,make entry throw flashbang,0
+stack up the door,open the door and clear,0
+taser,breach with charges and clear throw stinger grenade,0
+clear use sting grenade,open use c2,0
+switch to shield,turn around,0
+clear use cs gas,report to toc,0
+breach with explosives,open and clear use shotgun,0
+make entry with shotgun use stinger grenade,group up,0
+fold shield,check the door,0
+make entry with c4 use cs,make entry use tear gas,0
+pepper,turn around,0
+throw cs gas,fall in,0
+halt,group up,0
+make entry throw cs,wedge the door,0
+kick and clear throw thunderflash,disarm it,0
+follow me,open make entry,0
+shut the door,kick the door and clear,0
+make entry kick it use stinger grenade,hands up,0
+make entry with c4 use stinger,breach with c4 and clear throw stun grenade,0
+make entry use tear gas,stack up,0
+wedge it,cover it,0
+open and clear use shotgun,check for contacts,0
+open and clear use shotgun throw stinger,open it,0
+dont move,turn around,0
+make entry use tear gas,breach with shotgun and clear throw stun grenade,0
+breach with explosives and clear,clear use flashbang,0
+deploy thunderflash,group up,0
+suspect hold,make entry with explosives use stun grenade,0
+shut the door,wedge the door,0
+make entry with explosives use tear gas,breach with c4,0
+deploy sting grenade,follow me,0
+report it,make entry use flashbang,0
+make entry kick it use stun grenade,fold shield,0
+breach with c2 and clear throw flashbang,move to this position,0
+throw flashbang,halt,0
+make entry kick it use tear gas,lspd dont move,0
+open and clear use charges throw stinger,suspect move to me,0
+spray him,breach with shotgun,0
+open and clear use shotgun,get the door,0
+open and clear use sting grenade,kick and clear throw stinger,0
+drop chemlight,make entry with shotgun use stun grenade,0
+check the door,clear use gas,0
+switch to shield,clear throw stinger,0
+clear use stinger,deploy chemlight,0
+deploy chemlight,tazer,0
+pick up wedge,report to toc,0
+make entry kick it,open use shotgun,0
+pepper spray,police dont move,0
+breach with shotgun and clear,breach with c4 and clear throw tear gas,0
+cover it,report it,0
+search and bag,make entry kick it,0
+move to,open and clear throw tear gas,0
+open and clear use shotgun,execute,0
+fold shield,clear throw stinger,0
+halt,kick the door,0
+turn around,snake the door,0
+tie up suspect,drop chemlight,0
+spray him,throw sting grenade,0
+stack up the door,breach with c4 and clear throw stinger grenade,0
+suspect move to me,make entry kick it use tear gas,0
+open and clear use gas,tazer,0
+move to,open use shotgun,0
+group up,shut the door,0
+snake it,open and clear use shotgun throw stinger,0
+deploy chemlight,make entry kick it use tear gas,0
+throw tear gas,open make entry,0
+disarm trap,restrain him,0
+kick it,suspect move to me,0
+taser him,make entry use flashbang,0
+open use c2,report to toc,0
+execute,make entry kick it use cs,0
+breach with shotgun and clear throw tear gas,disarm it,0
+make entry with explosives use stun grenade,fold back shield,0
+disarm it,breach with c2 and clear throw flashbang,0
+make entry kick it use cs,open and clear use c2,0
+open and clear use shotgun throw cs gas,bag it,0
+open and clear use shotgun throw stinger,drop chemlight,0
+shut the door,open and clear throw stun grenade,0
+pick up wedge,open use explosives,0
+make entry kick it use stinger grenade,deploy shield,0
+pepper,kick it,0
+kick and clear use stun grenade,make entry use shotgun,0
+open the door and clear,deploy sting grenade,0
+throw stun grenade,clear use sting grenade,0
+open and clear use flashbang,wedge it,0
+open use shotgun,close the door,0
+go go go,throw cs gas,0
+go go go,hold,0
+breach with shotgun and clear throw cs,remove the wedge,0
+open and clear use thunderflash,open and clear use explosives,0
+disarm trap,restrain her,0
+make entry with shotgun use cs,fold back shield,0
+kick and clear throw tear gas,open use charges,0
+collect evidence,disarm it,0
+pick up wedge,turn around,0
+clear use stinger,suspect hold,0
+suspect hold,open and clear use shotgun,0
+kick the door,make entry kick it,0
+kick and clear throw flashbang,disarm trap,0
+open and clear,clear use stinger,0
+breach with shotgun and clear,pick up wedge,0
+suspect move to me,make entry with explosives use stun grenade,0
+breach with shotgun,open and clear with c4 use tear gas,0
+execute,make entry with explosives use stinger,0
+get the door,hold position,0
+zip tie,fold shield,0
+tie up suspect,hands up,0
+open and clear throw stinger,turn around,0
+collect everything,breach with shotgun and clear,0
+stack up,suspect move to me,0
+disarm it,kick the door,0
+pepper,search and secure,0
+fold back shield,open and clear use charges throw stinger,0
+open and clear with explosives use tear gas,kick and clear use stun grenade,0
+disarm trap,fold shield,0
+wedge the door,halt,0
+breach with charges and clear throw tear gas,make entry use explosives,0
+remove the wedge,disarm trap,0
+deploy shield,stack up the door,0
+close the door,clear use sting grenade,0
+cover the area,fold shield,0
+fold back shield,make entry use flashbang,0
+lspd dont move,kick it,0
+clear use sting grenade,make entry kick it use stinger grenade,0
+pick up wedge,open and clear use shotgun throw stinger,0
+breach with c4 and clear throw stinger grenade,kick and clear throw stinger,0
+arrest him,disarm trap,0
+open and clear use tear gas,open use shotgun,0
+open and clear use charges throw thunderflash,deploy chemlight,0
+suspect stop,fall in,0
+drop chemlight,throw sting grenade,0
+breach with c2 and clear throw cs,clear use flashbang,0
+make entry throw flashbang,execute,0
+make entry with shotgun use stinger grenade,clear use thunderflash,0
+kick it,taser,0
+throw cs gas,fold shield,0
+open the door and clear,wedge it,0
+taser him,group up,0
+report it,open the door,0
+turn around,kick and clear throw tear gas,0
+switch to shield,shut the door,0
+close the door,kick and clear throw cs,0
+open and clear throw stinger,zip tie,0
+open and clear use explosives,restrain suspect,0
+open and clear use sting grenade,clear throw stinger,0
+go go go,watch this corner,0
+cover it,make entry kick it,0
+pick up wedge,wedge it,0
+kick and clear throw flashbang,open the door,0
+deploy thunderflash,clear use thunderflash,0
+kick and clear throw tear gas,make entry with shotgun use stinger grenade,0
+turn around,deploy sting grenade,0
+throw stun grenade,clear throw stinger,0
+make entry with shotgun use stinger grenade,throw tear gas,0
+hold position,make entry use shotgun,0
+close the door,check the door,0
+kick it,hold position,0
+clear use tear gas,spray him,0
+deploy chemlight,close the door,0
+open and clear use shotgun throw flashbang,make entry kick it use stinger grenade,0
+search and secure,deploy sting grenade,0
+report to toc,open and clear use tear gas,0
+throw thunderflash,open and clear use tear gas,0
+make entry kick it use stinger grenade,guard it,0
+throw tear gas,breach with shotgun and clear throw cs,0
+clear use thunderflash,fold back shield,0
+pepper spray,cover the area,0
+clear use flashbang,guard it,0
+go go go,report to toc,0
+make entry use stinger,deploy chemlight,0
+clear use gas,make entry use shotgun,0
+close the door,deploy chemlight,0
+breach with shotgun and clear throw stinger,open the door and clear,0
+make entry kick it use stinger grenade,report it,0
+open make entry,restrain suspect,0
+kick the door,open and clear use gas,0
+clear use cs gas,breach with shotgun,0
+breach with c4,breach with shotgun and clear throw cs,0
+make entry use flashbang,make entry use c4,0
+stack up,taser,0
+make entry throw cs,open and clear use sting grenade,0
+fold back shield,disarm trap,0
+turn around,clear throw stun grenade,0
+suspect move to me,fold shield,0
+make entry kick it use stun grenade,make entry use tear gas,0
+open and clear use cs gas,remove the wedge,0
+deploy stun grenade,breach with c2 and clear throw flashbang,0
+breach with c4 and clear throw stun grenade,move to,0
+wedge it,follow me,0
+deploy thunderflash,make entry kick it use flashbang,0
+deploy chemlight,fold shield,0
+wedge it,clear throw tear gas,0
+tie up suspect,shut the door,0
+open the door and clear,breach with shotgun,0
+open and clear use sting grenade,pepper spray,0
+group up,execute,0
+arrest suspect,breach with c4,0
+go go go,kick and clear throw tear gas,0
+open and clear with shotgun use stun grenade,suspect move to me,0
+deploy chemlight,make entry kick it use cs,0
+turn around,open make entry,0
+pick up wedge,breach with shotgun,0
+open and clear with shotgun use flashbang,throw sting grenade,0
+deploy sting grenade,make entry kick it,0
+open use charges,open and clear with c4 use stun grenade,0
+group up,lspd dont move,0
+wedge it,pick up wedge,0
+breach with shotgun and clear throw stun grenade,close the door,0
+guard it,make entry kick it use cs,0
+go go go,deploy sting grenade,0
+suspect hold,go go go,0
+clear use sting grenade,dont move,0
+open and clear use shotgun throw stinger,shut the door,0
+wedge the door,make entry with explosives use stun grenade,0
+close the door,breach with c2,0
+kick the door,open use c2,0
+make entry use c2,make entry kick it use stinger grenade,0
+make entry with shotgun use stinger grenade,make entry sting grenade,0
+suspect hold,open and clear use c2,0
+make entry with shotgun use flashbang,turn around,0
+stack up,kick and clear throw tear gas,0
+pick up wedge,throw sting grenade,0
+open and clear with c4 use stinger,execute,0
+open and clear use explosives,breach with shotgun and clear throw stinger,0
+cover it,throw cs gas,0
+make entry throw cs,throw sting grenade,0
+remove the wedge,snake the door,0
+deploy stun grenade,open the door,0
+deploy sting grenade,make entry use explosives,0
+make entry with explosives use stinger,shut the door,0
+open it,report it,0
+close the door,deploy thunderflash,0
+open and clear with c2 use cs,make entry throw cs,0
+kick it,wedge it,0
+throw sting grenade,breach with c2,0
+kick and clear throw stinger,open and clear use shotgun,0
+breach with shotgun and clear throw tear gas,make entry kick it use cs,0
+close the door,spray him,0
+suspect stop,fold shield,0
+open use charges,check for contacts,0
+disarm it,cover it,0
+get the door,suspect stop,0
+collect everything,fold shield,0
+throw stun grenade,shut the door,0
+suspect hold,clear use sting grenade,0
+fold back shield,stack up the door,0
+arrest suspect,open and clear throw stun grenade,0
+deploy sting grenade,make entry kick it use cs,0
+make entry with shotgun use flashbang,clear throw stinger,0
+make entry kick it use tear gas,deploy sting grenade,0
+deploy cs,deploy chemlight,0
+execute,make entry with shotgun use cs,0
+deploy tear gas,open it,0
+throw flashbang,throw cs gas,0
+make entry throw flashbang,snake the door,0
+wedge it,guard it,0
+breach with shotgun,kick the door,0
+turn around,breach with shotgun,0
+clear use tear gas,breach with shotgun and clear,0
+open and clear with shotgun use flashbang,open and clear with c4 use tear gas,0
+spray him,kick the door,0
+throw flashbang,suspect move to me,0
+pepper spray,open and clear use stinger,0
+suspect move to me,open use c2,0
+remove the wedge,throw tear gas,0
+switch to shield,use the optic wand,0
+open and clear with shotgun use flashbang,disarm it,0
+cover the area,make entry use tear gas,0
+police dont move,make entry kick it use flashbang,0
+suspect hold,cover the area,0
+make entry with shotgun use tear gas,open the door,0
+pick up wedge,fold back shield,0
+pepper spray,throw thunderflash,0
+clear use tear gas,switch to shield,0
+pepper spray,stack up,0
+clear throw stun grenade,halt,0
+make entry throw flashbang,watch this corner,0
+open and clear use charges throw stinger grenade,kick the door,0
+throw sting grenade,kick and clear use stun grenade,0
+turn around,snake it,0
+disarm trap,turn around,0
+pepper spray,breach with shotgun and clear throw stun grenade,0
+taser,breach with shotgun and clear throw stinger,0
+open and clear use c4,deploy chemlight,0
+open and clear use shotgun,make entry sting grenade,0
+make entry with c4 use stinger,make entry with shotgun use stun grenade,0
+clear throw tear gas,open and clear use c2,0
+drop chemlight,disarm trap,0
+collect everything,make entry with explosives use stinger,0
+follow me,open and clear use shotgun,0
+throw stun grenade,fold back shield,0
+fold shield,lspd dont move,0
+kick the door and clear,move to,0
+kick and clear throw tear gas,kick and clear throw thunderflash,0
+breach with c2 and clear,open and clear use cs gas,0
+kick the door,turn around,0
+open use explosives,open use shotgun,0
+open and clear use shotgun,open and clear use shotgun throw stinger,0
+hold position,open and clear use shotgun throw flashbang,0
+make entry with shotgun use stinger grenade,suspect stop,0
+open use c4,open and clear with explosives use stun grenade,0
+group up,suspect move to me,0
+make entry throw flashbang,open and clear use charges throw flashbang,0
+follow me,go over there,0
+clear use gas,close the door,0
+make entry throw cs,breach with shotgun and clear,0
+make entry kick it use tear gas,open and clear with shotgun use stun grenade,0
+check the door,taser him,0
+switch to shield,deploy flashbang,0
+suspect hold,clear throw stinger,0
+hold,open and clear,0
+throw sting grenade,make entry with c2 use stun grenade,0
+wedge the door,open and clear use shotgun throw tear,0
+hands in the air,open and clear use sting grenade,0
+throw sting grenade,make entry use shotgun,0
+dont move,make entry throw cs,0
+kick the door and clear,suspect stop,0
+open and clear use flashbang,open use shotgun,0
+make entry kick it,suspect hold,0
+breach with shotgun and clear throw tear gas,open and clear throw stinger,0
+taser,deploy tear gas,0
+suspect move to me,make entry use tear gas,0
+make entry use shotgun,open and clear use shotgun throw tear,0
+taser him,drop chemlight,0
+deploy chemlight,pepper,0
+make entry throw flashbang,move to this position,0
+deploy tear gas,make entry kick it use stinger grenade,0
+open and clear use c4,open and clear use sting grenade,0
+fall in,police dont move,0
+wedge the door,hold,0
+make entry with shotgun use stinger grenade,follow me,0
+hands in the air,make entry with explosives use cs,0
+make entry kick it use stinger grenade,hold,0
+turn around,tazer,0
+restrain suspect,make entry kick it,0
+open use shotgun,throw stun grenade,0
+hands in the air,suspect stop,0
+suspect move to me,make entry with shotgun use tear gas,0
+make entry kick it use stinger grenade,suspect move to me,0
+make entry use tear gas,taser,0
+deploy sting grenade,open it,0
+make entry use shotgun,make entry with explosives use stinger,0
+stack up,throw sting grenade,0
+open and clear throw stinger,check for contacts,0
+execute,shut the door,0
+turn around,breach with shotgun and clear,0
+open it,fold shield,0
+use the optic wand,make entry sting grenade,0
+make entry use stinger,switch to shield,0
+kick and clear throw stinger,open it,0
+clear throw stun grenade,open and clear,0
+fold back shield,kick and clear throw tear gas,0
+fall in,kick the door and clear,0
+collect evidence,cover it,0
+disarm trap,pepper spray,0
+open and clear use flashbang,clear use stun grenade,0
+drop chemlight,clear use stinger,0
+halt,make entry use shotgun,0
+kick and clear throw stinger,cover it,0
+make entry with explosives use cs,kick and clear throw stinger,0
+turn around,fall in,0
+turn around,open and clear use tear gas,0
+kick and clear throw stinger,deploy cs,0
+fold back shield,deploy sting grenade,0
+suspect move to me,make entry with shotgun use cs,0
+go over there,open and clear with c4 use stinger,0
+make entry throw cs,kick and clear throw thunderflash,0
+deploy flashbang,make entry kick it use stinger grenade,0
+open use shotgun,clear use gas,0
+deploy thunderflash,make entry use shotgun,0
+suspect stop,pepper,0
+make entry kick it use stun grenade,fold back shield,0
+switch to shield,suspect move to me,0
+fall in,breach with shotgun and clear throw flashbang,0
+suspect hold,dont move,0
+breach with c4,open and clear with explosives use stun grenade,0
+wedge the door,go go go,0
+disarm trap,tie up,0
+breach with c2 and clear throw flashbang,fold shield,0
+secure the area,hold position,0
+cover the area,tie up,0
+fold shield,make entry use stinger,0
+spray him,breach with c4 and clear throw stinger grenade,0
+restrain him,suspect move to me,0
+report to toc,breach with c4 and clear throw stinger grenade,0
+breach with c4 and clear throw tear gas,deploy cs,0
+open use c2,disarm trap,0
+disarm it,follow me,0
+open use c2,open use shotgun,0
+make entry kick it,make entry use shotgun,0
+tazer,check the door,0
+make entry use flashbang,suspect stop,0
+open and clear throw stinger,deploy flashbang,0
+open make entry,fold shield,0
+fall in,report to toc,0
+snake the door,make entry kick it,0
+open and clear with c4 use stun grenade,fold shield,0
+check under the door,disarm trap,0
+make entry kick it use stinger grenade,report to toc,0
+switch to shield,wedge the door,0
+remove the wedge,suspect stop,0
+clear use thunderflash,throw tear gas,0
+check the door,open and clear use flashbang,0
+mirror the door,turn around,0
+suspect hold,make entry with c4 use flashbang,0
+report it,snake it,0
+wand it,kick the door,0
+pepper,clear use thunderflash,0
+hold position,kick and clear throw stinger,0
+open it,remove the wedge,0
+fold back shield,open and clear with shotgun use stun grenade,0
+watch this corner,deploy chemlight,0
+fall in,open and clear use flashbang,0
+make entry with shotgun use stun grenade,make entry with shotgun use stinger grenade,0
+throw flashbang,kick it,0
+throw sting grenade,open and clear with explosives use stinger grenade,0
+fold shield,go go go,0
+collect evidence,make entry kick it use stinger grenade,0
+breach with shotgun,deploy chemlight,0
+make entry use flashbang,clear throw tear gas,0
+make entry use shotgun,pepper,0
+turn around,make entry with c2 use tear gas,0
+make entry use shotgun,make entry use tear gas,0
+close the door,make entry throw cs,0
+make entry use explosives,open and clear use flashbang,0
+open and clear use shotgun throw tear,report to toc,0
+open and clear throw stun grenade,breach with shotgun,0
+deploy shield,open and clear use charges,0
+fold shield,taser,0
+fold back shield,open and clear use sting grenade,0
+dont move,watch this corner,0
+remove the wedge,follow me,0
+clear use sting grenade,open and clear use gas,0
+suspect hold,fold back shield,0
+hold,suspect move to me,0
+wedge the door,make entry with shotgun use tear gas,0
+open and clear with c4 use stinger,make entry sting grenade,0
+make entry with c4 use stinger,deploy tear gas,0
+fall in,turn around,0
+open and clear use cs gas,open and clear with c4 use tear gas,0
+throw sting grenade,open and clear with c4 use stinger,0
+fold shield,report to toc,0
+disarm trap,fold back shield,0
+make entry kick it use stinger grenade,turn around,0
+kick and clear throw stinger,restrain civilian,0
+make entry use shotgun,drop chemlight,0
+arrest civilian,kick the door and clear,0
+wedge it,remove the wedge,0
+open and clear use c4,breach with shotgun and clear,0
+open and clear use sting grenade,stack up the door,0
+make entry with c2 use tear gas,remove the wedge,0
+open and clear with c4 use cs,suspect move to me,0
+make entry use shotgun,make entry with shotgun use tear gas,0
+open and clear use shotgun,tazer,0
+make entry use shotgun,turn around,0
+secure the area,clear use cs gas,0
+turn around,open and clear use charges throw thunderflash,0
+kick and clear use stun grenade,throw stun grenade,0
+throw thunderflash,open make entry,0
+group up,open make entry,0
+clear use sting grenade,make entry use stinger,0
+clear use stinger,cover it,0
+remove the wedge,make entry use shotgun,0
+make entry use c4,turn around,0
+open and clear with c2 use cs,wedge it,0
+disarm it,make entry kick it use tear gas,0
+wedge the door,make entry kick it use stinger grenade,0
+deploy shield,make entry use flashbang,0
+kick it,close the door,0
+make entry with c2 use cs,cover the area,0
+clear use gas,make entry use tear gas,0
+deploy shield,check for contacts,0
+deploy sting grenade,spray him,0
+snake the door,hold,0
+open and clear use shotgun throw stinger,wedge the door,0
+snake it,cover it,0
+guard it,shut the door,0
+drop chemlight,show me your hands,0
+report to toc,open and clear use sting grenade,0
+make entry with explosives use stinger,remove the wedge,0
+spray him,suspect hold,0
+throw sting grenade,fold shield,0
+check under the door,open and clear with explosives use stun grenade,0
+follow me,make entry with shotgun use cs,0
+open and clear use flashbang,deploy cs,0
+open and clear use shotgun,switch to shield,0
+clear throw stun grenade,throw cs gas,0
+throw tear gas,show me your hands,0
+fold back shield,kick and clear use stun grenade,0
+lspd dont move,deploy stun grenade,0
+open it,make entry use tear gas,0
+breach with c2 and clear,breach with c2 and clear throw stun grenade,0
+follow me,arrest him,0
+fold shield,deploy sting grenade,0
+make entry use shotgun,clear throw stinger,0
+deploy chemlight,halt,0
+throw sting grenade,make entry kick it use cs,0
+kick and clear throw flashbang,breach with shotgun and clear,0
