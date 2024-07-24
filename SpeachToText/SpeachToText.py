@@ -1,15 +1,20 @@
 import time
 import whisper
 
+DEFAULT_FILE_PATH = "Assets/AudioFiles/player_recorded_command_temp.wav"
 
-start_time = time.time()
-model = whisper.load_model("medium")
-end_time = time.time()
-print(f"Time taken to load model: {end_time - start_time} seconds")
-start_time = time.time()
-# Transcribe the Ogg file
-result = model.transcribe("../Assets/AudioFiles/player_recorded_command_temp.wav", fp16=False, language='en')
-end_time = time.time()
-print(f"Time taken to transcribe text: {end_time - start_time} seconds")
-# Print the transcription result
-print(result["text"])
+# list of available models
+TINY = "tiny"
+BASE = "base"
+SMALL = "small"
+MEDIUM = "medium"
+LARGE = "large"
+
+DEFAULT_MODEL = MEDIUM
+
+class SpeachToText(model_name=DEFAULT_MODEL):
+    def __init__(self):
+        self.model = whisper.load_model(model_name)
+
+    def transcribe_audio_file(self, audio_file_path=DEFAULT_FILE_PATH):
+        return self.model.transcribe(audio_file_path, fp16=False, language='en')["text"]
