@@ -1,13 +1,12 @@
 from SpeachToText.AudioCapture import Recorder
 import time
-
 from TextProcessing.TextProcessor import TextProcessor
 import whisper
 from Model.BertModel import SentenceEmbedderModel
 from Model.Utils import cosine_sim
 import json
 import numpy as np
-from DataLoader.DataLoader import DataLoader
+from DataHandling.DataLoader import DataLoader
 
 
 dataloader = DataLoader()
@@ -16,7 +15,7 @@ variations_embedding_dict = dataloader.load_variations_embedding_dict()
 model = SentenceEmbedderModel(model_name='bert-base-uncased')
 
 sentence_vectors_np_1 = variations_embedding_dict['open and clear with explosives use stun grenade']
-sentence_2 = "open and clear with explosive then throw stun grenade"
+sentence_2 = "I love sunrise"
 sentence_vectors_np_2 = model.sentence_to_vector(processed_sentence=sentence_2)
 
 print(cosine_sim(sentence_vectors_np_1, sentence_vectors_np_2, is_1d = True))
