@@ -14,8 +14,8 @@ variations_embedding_dict = dataloader.load_variations_embedding_dict()
 
 model = SentenceEmbedderModel(model_name='bert-base-uncased')
 
-sentence_vectors_np_1 = variations_embedding_dict['open and clear with explosives use stun grenade']
-sentence_2 = "I love sunrise"
+sentence_vectors_np_1 = model.sentence_to_vector('flash')
+sentence_2 = "flashbang"
 sentence_vectors_np_2 = model.sentence_to_vector(processed_sentence=sentence_2)
 
 print(cosine_sim(sentence_vectors_np_1, sentence_vectors_np_2, is_1d = True))
