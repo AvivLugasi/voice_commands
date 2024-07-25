@@ -1,5 +1,8 @@
 from DataHandling.DataLoader import DataLoader
 from DataHandling.DataLoader import COMMAND_VARIATIONS_KEY
+from transformers import BertTokenizer
+import torch
+from torch.utils.data import Dataset
 import random
 import csv
 from sklearn.model_selection import train_test_split
@@ -9,8 +12,10 @@ NOT_PARAPHRASES = 0
 CLASSES_RATIO = 2
 DEFAULT_TRAIN_DATA_PATH = "Assets/Data/ReadyOrNot/BertSequanceClassiferDataSet.csv"
 
+MAX_PADDING = 30
 
-class TrainDataManager:
+
+class TrainDataGenerator:
     def __init__(self):
         self.dataloader = DataLoader()
         self.sentences_pairs = []
@@ -55,6 +60,40 @@ class TrainDataManager:
         self.train_pairs, self.val_pairs, self.train_labels, self.val_labels = train_test_split(self.sentences_pairs,
                                                                                       self.pairs_labels,
                                                                                       test_size=0.25)
+
+class TrainDataSample:
+    def __init__(self, sentence_pair, label):
+        self.sentence_pair = sentence_pair
+        self.label = label
+
+
+class TrainDataBatchLoader(Dataset):
+    def __init__(self,
+                 train_data_samples_list:list,
+                 tokenizer:BertTokenizer,
+                 max_length_padding=MAX_PADDING):
+        self.train_data_samples_list = train_data_samples_list
+        self.tokenizer = tokenizer
+        self.max_length_padding = max_length_padding
+
+    def __len__(self):
+        return len(self.train_data_samples_list)
+
+    def __getitem__(self, idx):
+        text_a, text_b = self.train_data_samples_list[idx]
+        sentence_pair_input = self.tokenizer(
+            text_a, text_b,
+            padding='max_length',
+            max_length=self.max_length_padding,
+            truncation=True,
+            return_tensors='pt'
+        )
+        return {
+            'input_ids': sentence_pair_input['input_ids'].squeeze(0),
+            'attention_mask': sentence_pair_input['attention_mask'].squeeze(0),
+            'token_type_ids': sentence_pair_input['token_type_ids'].squeeze(0),
+            'labels': torch.tensor(self.labels[idx], dtype=torch.long)
+        }
 
 
 def _generate_positive_samples(formatted_commands_list: list,

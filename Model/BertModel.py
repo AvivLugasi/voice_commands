@@ -63,7 +63,11 @@ class SentenceEmbedderModel:
         # Load the filtered state_dict into the base model
         self.model.state_dict = self.model.load_state_dict(filtered_state_dict, strict=False)
 
-
+"""
+TODO: implement classifier class, use traindatamanager batchloader class
+implement training loop in keras
+check for a way to extract sentence embedding from the trained model/ pass relevant weights to the bert model
+"""
 class SequenceClassificationModel:
     def __init__(self):
         pass
