@@ -27,13 +27,13 @@ def perform_key_sequence(key_sequence:str):
 data_io = DataIO()
 model = SequenceClassificationModel()
 
-# commands_variations = data_io.get_commands_variations()
-# variations_embedding_dict = {}
-# for variation in commands_variations:
-#     sentence_vectors = model.sentence_to_vector(variation)
-#     variations_embedding_dict[variation] = sentence_vectors
-#
-# data_io.write_variations_embedding_dict(variations_embedding_dict)
+commands_variations = data_io.get_commands_variations()
+variations_embedding_dict = {}
+for variation in commands_variations:
+    sentence_vectors = model.sentence_to_vector(variation)
+    variations_embedding_dict[variation] = sentence_vectors
+
+data_io.write_variations_embedding_dict(variations_embedding_dict)
 
 variations_embedding_dict = data_io.load_variations_embedding_dict()
 variations_keys_sequence_dict = data_io.get_variations_keys_sequence_dict()

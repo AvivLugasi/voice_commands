@@ -97,7 +97,8 @@
                     "command name": "breach and clear with charges use stun grenade",
                     "variations": [
                         "breach with explosives and clear throw flashbang",
-                        "breach with explosives and clear throw stun grenade"
+                        "breach with explosives and clear throw stun grenade",
+                        "open and clear with explosives throw stun grenade"
                     ],
                     "keys_sequence": "mmb+3+3+2"
                 },
@@ -156,7 +157,8 @@
                         "breach with explosives and clear throw cs",
                         "breach with explosives and clear throw tear gas",
                         "breach with charges and clear throw cs",
-                        "breach with charges and clear throw tear gas"
+                        "breach with charges and clear throw tear gas",
+                        "open and clear with explosives throw tear gas"
                     ],
                     "keys_sequence": "mmb+3+3+4"
                 },
@@ -164,7 +166,8 @@
                     "command name": "breach and clear with shotgun use tear gas",
                     "variations": [
                         "breach with shotgun and clear throw cs",
-                        "breach with shotgun and clear throw tear gas"
+                        "breach with shotgun and clear throw tear gas",
+                        "open and clear with shotgun throw tear gas"
                     ],
                     "keys_sequence": "mmb+3+2+4"
                 },

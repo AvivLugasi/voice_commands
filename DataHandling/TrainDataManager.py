@@ -1,16 +1,8 @@
-<<<<<<< HEAD
 from DataHandling.DataIO import DataIO
 from DataHandling.DataIO import COMMAND_VARIATIONS_KEY
 from transformers import BertTokenizer
 import torch
 from torch.utils.data import Dataset, DataLoader
-=======
-from DataHandling.DataLoader import DataLoader
-from DataHandling.DataLoader import COMMAND_VARIATIONS_KEY
-from transformers import BertTokenizer
-import torch
-from torch.utils.data import Dataset
->>>>>>> aa980eb66d9260bb6ed7943ab5c3ff2b27fb8bb3
 import random
 import csv
 from sklearn.model_selection import train_test_split
@@ -20,19 +12,10 @@ NOT_PARAPHRASES = 0
 CLASSES_RATIO = 2
 DEFAULT_TRAIN_DATA_PATH = "Assets/Data/ReadyOrNot/BertSequanceClassiferDataSet.csv"
 
-<<<<<<< HEAD
 
 class TrainDataGenerator:
     def __init__(self):
         self.data_io = DataIO()
-=======
-MAX_PADDING = 30
-
-
-class TrainDataGenerator:
-    def __init__(self):
-        self.dataloader = DataLoader()
->>>>>>> aa980eb66d9260bb6ed7943ab5c3ff2b27fb8bb3
         self.sentences_pairs = []
         self.pairs_labels = []
         self.train_pairs = []
@@ -41,11 +24,7 @@ class TrainDataGenerator:
         self.val_labels = []
 
     def generate_bert_train_data(self):
-<<<<<<< HEAD
         formatted_commands_list = self.data_io.get_commands_list()
-=======
-        formatted_commands_list = self.dataloader.get_commands_list()
->>>>>>> aa980eb66d9260bb6ed7943ab5c3ff2b27fb8bb3
         sentences_pairs = []
         pairs_labels = []
         sentences_pairs, pairs_labels = _generate_positive_samples(formatted_commands_list,
@@ -83,7 +62,6 @@ class TrainDataGenerator:
 class TrainDataSample:
     def __init__(self, sentence_pair, label):
         self.sentence_pair = sentence_pair
-<<<<<<< HEAD
         self.label = int(label)
 
 
@@ -93,25 +71,11 @@ class TrainDataSet(Dataset):
                  tokenizer:BertTokenizer):
         self.train_data_samples_list = train_data_samples_list
         self.tokenizer = tokenizer
-=======
-        self.label = label
-
-
-class TrainDataBatchLoader(Dataset):
-    def __init__(self,
-                 train_data_samples_list:list,
-                 tokenizer:BertTokenizer,
-                 max_length_padding=MAX_PADDING):
-        self.train_data_samples_list = train_data_samples_list
-        self.tokenizer = tokenizer
-        self.max_length_padding = max_length_padding
->>>>>>> aa980eb66d9260bb6ed7943ab5c3ff2b27fb8bb3
 
     def __len__(self):
         return len(self.train_data_samples_list)
 
     def __getitem__(self, idx):
-<<<<<<< HEAD
         sentence_pair = self.train_data_samples_list[idx].sentence_pair
         return sentence_pair[0],\
                sentence_pair[1],\
@@ -144,23 +108,6 @@ def _collate_fn_custom_padding(batch):
         'token_type_ids': token_type_ids,
         'labels': labels
     }
-=======
-        text_a, text_b = self.train_data_samples_list[idx]
-        sentence_pair_input = self.tokenizer(
-            text_a, text_b,
-            padding='max_length',
-            max_length=self.max_length_padding,
-            truncation=True,
-            return_tensors='pt'
-        )
-        return {
-            'input_ids': sentence_pair_input['input_ids'].squeeze(0),
-            'attention_mask': sentence_pair_input['attention_mask'].squeeze(0),
-            'token_type_ids': sentence_pair_input['token_type_ids'].squeeze(0),
-            'labels': torch.tensor(self.labels[idx], dtype=torch.long)
-        }
-
->>>>>>> aa980eb66d9260bb6ed7943ab5c3ff2b27fb8bb3
 
 def _generate_positive_samples(formatted_commands_list: list,
                               sentences_pairs: list,
@@ -176,10 +123,6 @@ def _generate_positive_samples(formatted_commands_list: list,
 
     return sentences_pairs, pairs_labels
 
-<<<<<<< HEAD
-=======
-
->>>>>>> aa980eb66d9260bb6ed7943ab5c3ff2b27fb8bb3
 def _generate_negative_samples(formatted_commands_list: list,
                               sentences_pairs: list,
                               pairs_labels: list):
@@ -195,7 +138,6 @@ def _generate_negative_samples(formatted_commands_list: list,
     sentences_pairs.extend(list(negative_pair_set))
     pairs_labels.extend(negative_labels_list)
     return sentences_pairs, pairs_labels
-<<<<<<< HEAD
 
 def _create_data_loader(dataset,
                         batch_size=8,
@@ -223,5 +165,3 @@ def assemble_train_val_data_loaders(batch_size=8,
     train_data_loader = create_data_loader(train_data_set, shuffle=shuffle_train_data, batch_size=batch_size)
     val_data_loader = create_data_loader(val_data_set, shuffle=False, batch_size=batch_size)
     return train_data_loader, val_data_loader
-=======
->>>>>>> aa980eb66d9260bb6ed7943ab5c3ff2b27fb8bb3
