@@ -188,7 +188,7 @@
                         "open it",
                         "get the door"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+8"
                 },
                 {
                     "command name": "mirror the door",
@@ -201,7 +201,7 @@
                         "wand it",
                         "check under the door"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+5"
                 },
                 {
                     "command name": "wedge the door",
@@ -209,7 +209,7 @@
                         "wedge the door",
                         "wedge it"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+6"
                 },
                 {
                     "command name": "remove wedge",
@@ -217,7 +217,7 @@
                         "remove the wedge",
                         "pick up wedge"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+6"
                 },
                 {
                     "command name": "stack up the door",
@@ -240,7 +240,7 @@
                         "close the door",
                         "shut the door"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+8"
                 },
                 {
                     "command name": "clear with stun grenade",
@@ -252,7 +252,7 @@
                         "make entry throw flashbang",
                         "clear throw stun grenade"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+2+2"
                 },
                 {
                     "command name": "clear with tear gas",
@@ -264,7 +264,7 @@
                         "make entry throw cs",
                         "clear throw tear gas"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+2+4"
                 },
                 {
                     "command name": "clear with stinger grenade",
@@ -275,7 +275,7 @@
                         "make entry sting grenade",
                         "clear throw stinger"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+2+3"
                 },
                 {
                     "command name": "throw stun grenade",
@@ -287,7 +287,7 @@
                         "deploy stun grenade",
                         "deploy flashbang"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+5+1"
                 },
                 {
                     "command name": "throw tear gas",
@@ -297,7 +297,7 @@
                         "deploy tear gas",
                         "deploy cs"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+5+3"
                 },
                 {
                     "command name": "throw stinger grenade",
@@ -305,7 +305,7 @@
                         "throw sting grenade",
                         "deploy sting grenade"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+5+2"
                 }
             ]
         },
@@ -365,7 +365,7 @@
                         "fold shield",
                         "fold back shield"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+5+5"
                 },
                 {
                     "command name": "search and secure",
@@ -401,7 +401,7 @@
                         "tie up",
                         "zip tie"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+1"
                 },
                 {
                     "command name": "yell to surrender",
@@ -420,14 +420,14 @@
                     "variations": [
                         "turn around"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+4"
                 },
                 {
                     "command name": "tell suspect to move to your position",
                     "variations": [
                         "suspect move to me"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+2+2"
                 },
                 {
                     "command name": "tell suspect to stop moving",
@@ -435,7 +435,7 @@
                         "suspect hold",
                         "suspect stop"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+2+3"
                 },
                 {
                     "command name": "execute a queued command",
@@ -443,7 +443,7 @@
                         "execute",
                         "go go go"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+1"
                 },
                 {
                     "command name": "tell team to hold position",
@@ -486,7 +486,7 @@
                         "report to toc",
                         "report it"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "f"
                 }
             ]
         }

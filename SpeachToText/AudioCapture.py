@@ -53,7 +53,9 @@ class Recorder:
 
     def record_by_key_pressed(self, key=RECORD_KEY_PRESSED):
         frames = []  # Initialize array to store frames
-        keyboard.wait(key)
+        while True:
+            if keyboard.is_pressed(key):
+                break
         print("recording")
         try:
             # Record while the key is pressed
