@@ -1,5 +1,9 @@
-from transformers import BertTokenizer, BertModel, BertForSequenceClassification
+from transformers import BertTokenizer, BertModel, BertForSequenceClassification, AdamW, get_scheduler
 import torch
+from torchmetrics import Accuracy
+from torch.utils.data import Dataset, DataLoader
+from DataHandling.TrainDataManager import assemble_train_val_data_loaders
+from tqdm.auto import tqdm
 import numpy as np
 from Model.Utils import cosine_sim, get_running_device
 import heapq
@@ -7,9 +11,12 @@ import heapq
 PREFIX_TOKEN = "[CLS] "
 SUFFIX_TOKEN = " [SEP]"
 
+TRAINED_SEQUENCE_CLASSIFIER_DIR = "Assets/Model/BertSequenceClassifier"
+BASE_MODEL = 'bert-base-uncased'
+
 class SentenceEmbedderModel:
     def __init__(self,
-                 model_name='bert-base-uncased',
+                 model_name=BASE_MODEL,
                  output_hidden_states=True):
         self.tokenizer = BertTokenizer.from_pretrained(model_name)
         self.model = BertModel.from_pretrained(model_name, output_hidden_states = output_hidden_states)
@@ -40,17 +47,6 @@ class SentenceEmbedderModel:
         segments_ids_tensor = torch.tensor([segments_ids])
         return indexed_tokens_tensor, segments_ids_tensor
 
-    def find_top_n_similar_sentences(self,
-                                     processed_sentence: str,
-                                     commands_embedding_dict: dict,
-                                     n=1):
-        vectors_similarity_map = {}
-        input_vector = self.sentence_to_vector(processed_sentence)
-        for command_variation in commands_embedding_dict.keys():
-            vectors_similarity_map[command_variation] = cosine_sim(commands_embedding_dict[command_variation], input_vector, is_1d = True)
-
-        return heapq.nlargest(n, vectors_similarity_map.items(), key=lambda item: item[1])
-
     def load_weights_from_trained_model(self, trained_model):
 
         # Extract state dictionaries
@@ -69,9 +65,86 @@ implement training loop in keras
 check for a way to extract sentence embedding from the trained model/ pass relevant weights to the bert model
 """
 class SequenceClassificationModel:
-    def __init__(self):
-        pass
+    def __init__(self,
+                 model_name=TRAINED_SEQUENCE_CLASSIFIER_DIR,
+                 tokenizer_name=BASE_MODEL,
+                 output_hidden_states=True,
+                 num_labels=2):
+        self.tokenizer = BertTokenizer.from_pretrained(tokenizer_name)
+        self.model = BertForSequenceClassification.from_pretrained(model_name,
+                                                                   output_hidden_states=output_hidden_states,
+                                                                   num_labels=num_labels)
+        self.device = get_running_device()
 
+    def sentence_to_vector(self, processed_sentence:str):
+        self.model.eval()
+        inputs = self.tokenizer(processed_sentence,
+                                padding=True,
+                                truncation=True,
+                                return_tensors='pt')
+
+        with torch.no_grad():
+            hidden_states = self.model(**inputs).hidden_states
+        return _get_sentence_vector(hidden_states).detach().numpy()
+
+    def train_model(self,
+                    saved_model_dir=TRAINED_SEQUENCE_CLASSIFIER_DIR,
+                    num_of_epochs=8,
+                    batch_size=8,
+                    shuffle_train_data=True):
+        train_data_loader, val_data_loader = assemble_train_val_data_loaders(batch_size=batch_size,
+                                                                             shuffle_train_data=shuffle_train_data)
+
+        optimizer = AdamW(self.model.parameters(), lr=5e-5)
+
+        num_training_steps = num_of_epochs * len(train_data_loader)
+        lr_scheduler = get_scheduler(
+            "linear",
+            optimizer=optimizer,
+            num_warmup_steps=0,
+            num_training_steps=num_training_steps,
+        )
+
+        model.to(self.device)
+        progress_bar = tqdm(range(num_training_steps))
+
+        self.model.train()
+        for epoch in range(num_of_epochs):
+            for batch in train_data_loader:
+                batch = {k: v.to(self.device) for k, v in batch.items()}
+                outputs = self.model(**batch)
+                loss = outputs.loss
+                loss.backward()
+
+                optimizer.step()
+                lr_scheduler.step()
+                optimizer.zero_grad()
+                progress_bar.update(1)
+                print(f"epoch:{epoch} loss: {loss} batch progress:{progress_bar}")
+
+        self.eval_model(val_data_loader)
+        self.save_model(output_dir=saved_model_dir)
+
+    def save_model(self,output_dir=TRAINED_SEQUENCE_CLASSIFIER_DIR):
+        self.model.save_pretrained(output_dir)
+
+    def eval_model(self,val_data_loader):
+        self.model.eval()
+        accuracy = Accuracy(task="binary").to(self.device)
+        for batch in val_data_loader:
+            batch = {k: v.to(self.device) for k, v in batch.items()}
+            with torch.no_grad():
+                outputs = self.model(**batch)
+
+            logits = outputs.logits
+            predictions = torch.argmax(logits, dim=-1)
+
+            # Update the metric with predictions and labels
+            accuracy.update(predictions, batch["labels"])
+
+        # Compute the final accuracy
+        final_accuracy = accuracy.compute()
+        print(f"Accuracy: {final_accuracy.item()}")
 
 def _get_word_vectors(output_grouped_by_tokens):
     # Stores the token vectors, with shape [num of tokens x 3,072]
@@ -119,3 +192,18 @@ def _preprocess_sentence(processed_sentence: str):
         processed_sentence = processed_sentence + SUFFIX_TOKEN
 
     return processed_sentence
+
+def find_top_n_similar_sentences(model,
+                                 processed_sentence: str,
+                                 commands_embedding_dict: dict,
+                                 n=1):
+    vectors_similarity_map = {}
+    input_vector = model.sentence_to_vector(processed_sentence)
+    for command_variation in commands_embedding_dict.keys():
+        vectors_similarity_map[command_variation] = cosine_sim(commands_embedding_dict[command_variation],
+                                                               input_vector,
+                                                               is_1d = True)
+
+    top_n_commands = heapq.nlargest(n, vectors_similarity_map.items(), key=lambda item: item[1])
+    commands, similarities = zip(*top_n_commands)
+    return commands, similarities
