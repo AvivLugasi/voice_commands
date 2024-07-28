@@ -13,42 +13,32 @@
                         "open make entry",
                         "open the door and clear"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+2+1"
                 },
                 {
                     "command name": "open and clear with stun grenade",
                     "variations": [
                         "open and clear use flashbang",
                         "open and clear use stun grenade",
-                        "open and clear use thunderflash",
-                        "make entry use flashbang",
-                        "make entry throw flashbang",
-                        "open and clear throw stun grenade"
+                        "open and clear use thunderflash"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+2+2"
                 },
                 {
                     "command name": "open and clear with tear gas",
                     "variations": [
                         "open and clear use tear gas",
-                        "open and clear use cs gas",
-                        "open and clear use gas",
-                        "make entry use tear gas",
-                        "make entry throw cs",
-                        "open and clear throw tear gas"
+                        "open and clear use cs gas"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+2+4"
                 },
                 {
                     "command name": "open and clear with stinger grenade",
                     "variations": [
                         "open and clear use sting grenade",
-                        "open and clear use stinger",
-                        "make entry use stinger",
-                        "make entry sting grenade",
-                        "open and clear throw stinger"
+                        "open and clear use stinger"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+2+3"
                 },
                 {
                     "command name": "breach and clear with charges",
@@ -56,37 +46,28 @@
                         "open and clear use charges",
                         "open and clear use explosives",
                         "open and clear use c4",
-                        "open and clear use c2",
-                        "make entry use c2",
-                        "make entry use c4",
-                        "make entry use explosives",
                         "breach with c2 and clear",
                         "breach with c4 and clear",
                         "breach with explosives and clear"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+3+1"
                 },
                 {
                     "command name": "breach with charges",
                     "variations": [
                         "open use charges",
                         "open use explosives",
-                        "open use c4",
-                        "open use c2",
-                        "breach with c2",
-                        "breach with c4",
-                        "breach with explosives"
+                        "open use c4"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+3+1"
                 },
                 {
                     "command name": "breach and clear with shotgun",
                     "variations": [
                         "open and clear use shotgun",
-                        "make entry use shotgun",
                         "breach with shotgun and clear"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+2+1"
                 },
                 {
                     "command name": "breach with shotgun",
@@ -94,7 +75,7 @@
                         "open use shotgun",
                         "breach with shotgun"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+2+1"
                 },
                 {
                     "command name": "kick and clear",
@@ -102,7 +83,7 @@
                         "kick the door and clear",
                         "make entry kick it"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+1+1"
                 },
                 {
                     "command name": "kick the door",
@@ -110,26 +91,15 @@
                         "kick the door",
                         "kick it"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+1+1"
                 },
                 {
                     "command name": "breach and clear with charges use stun grenade",
                     "variations": [
-                        "open and clear use charges throw flashbang",
-                        "open and clear use charges throw thunderflash",
-                        "open and clear with explosives use stun grenade",
-                        "open and clear with c4 use flashbang",
-                        "open and clear with c4 use stun grenade",
-                        "open and clear with c2 use flashbang",
-                        "make entry with c2 use stun grenade",
-                        "make entry with c4 use flashbang",
-                        "make entry with explosives use stun grenade",
-                        "breach with c2 and clear throw flashbang",
-                        "breach with c2 and clear throw stun grenade",
-                        "breach with c4 and clear throw flashbang",
-                        "breach with c4 and clear throw stun grenade"
+                        "breach with explosives and clear throw flashbang",
+                        "breach with explosives and clear throw stun grenade"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+3+2"
                 },
                 {
                     "command name": "breach and clear with shotgun use stun grenade",
@@ -137,14 +107,9 @@
                         "open and clear use shotgun throw flashbang",
                         "open and clear use shotgun throw thunderflash",
                         "open and clear with shotgun use stun grenade",
-                        "open and clear with shotgun use flashbang",
-                        "open and clear with shotgun use stun grenade",
-                        "make entry with shotgun use stun grenade",
-                        "make entry with shotgun use flashbang",
-                        "breach with shotgun and clear throw flashbang",
                         "breach with shotgun and clear throw stun grenade"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+2+2"
                 },
                 {
                     "command name": "kick and clear use stun grenade",
@@ -152,11 +117,9 @@
                         "kick and clear throw flashbang",
                         "kick and clear throw thunderflash",
                         "kick and clear use stun grenade",
-                        "kick and clear use stun grenade",
-                        "make entry kick it use stun grenade",
-                        "make entry kick it use flashbang"
+                        "kick and clear use stun grenade"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+1+2"
                 },
                 {
                     "command name": "breach and clear with charges use stinger grenade",
@@ -164,16 +127,11 @@
                         "open and clear use charges throw stinger grenade",
                         "open and clear use charges throw stinger",
                         "open and clear with explosives use stinger grenade",
-                        "open and clear with c2 use stinger",
-                        "open and clear with c4 use stinger",
-                        "make entry with c2 use stinger",
-                        "make entry with c4 use stinger",
-                        "make entry with explosives use stinger",
-                        "breach with c2 and clear throw stinger",
-                        "breach with c4 and clear throw stinger grenade",
-                        "breach with charges and clear throw stinger grenade"
+                        "breach with explosives and clear throw stinger",
+                        "breach with explosives and clear throw stinger grenade",
+                        "breach with explosives and clear throw stinger grenade"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+3+3"
                 },
                 {
                     "command name": "breach and clear with shotgun use stinger grenade",
@@ -182,7 +140,7 @@
                         "make entry with shotgun use stinger grenade",
                         "breach with shotgun and clear throw stinger"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+2+3"
                 },
                 {
                     "command name": "kick and clear use stinger grenade",
@@ -190,43 +148,25 @@
                         "kick and clear throw stinger",
                         "make entry kick it use stinger grenade"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+1+3"
                 },
                 {
                     "command name": "breach and clear with charges use tear gas",
                     "variations": [
-                        "open and clear use charges throw tear gas",
-                        "open and clear use charges throw cs",
-                        "open and clear with explosives use cs",
-                         "open and clear with explosives use tear gas",
-                        "open and clear with c2 use tear gas",
-                        "open and clear with c2 use cs",
-                        "open and clear with c4 use tear gas",
-                        "open and clear with c4 use cs",
-                        "make entry with c2 use cs",
-                        "make entry with c2 use tear gas",
-                        "make entry with c4 use cs",
-                        "make entry with c4 use tear gas",
-                        "make entry with explosives use tear gas",
-                        "make entry with explosives use cs",
-                        "breach with c2 and clear throw cs",
-                        "breach with c4 and clear throw tear gas",
+                        "breach with explosives and clear throw cs",
+                        "breach with explosives and clear throw tear gas",
                         "breach with charges and clear throw cs",
                         "breach with charges and clear throw tear gas"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+3+4"
                 },
                 {
                     "command name": "breach and clear with shotgun use tear gas",
                     "variations": [
-                        "open and clear use shotgun throw tear",
-                        "open and clear use shotgun throw cs gas",
-                        "make entry with shotgun use tear gas",
-                        "make entry with shotgun use cs",
                         "breach with shotgun and clear throw cs",
                         "breach with shotgun and clear throw tear gas"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+2+4"
                 },
                 {
                     "command name": "kick and clear use tear gas",
@@ -236,7 +176,7 @@
                         "make entry kick it use cs",
                         "make entry kick it use tear gas"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3+1+4"
                 },
                 {
                     "command name": "open the door",
@@ -283,7 +223,7 @@
                         "stack up the door",
                         "check the door"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+1+4"
                 }
             ]
         },
@@ -378,7 +318,7 @@
                         "follow me",
                         "group up"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+2+1"
                 },
                 {
                     "command name": "cover",
@@ -388,7 +328,7 @@
                         "watch this corner",
                         "guard it"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+3"
                 },
                 {
                     "command name": "move to",
@@ -398,7 +338,7 @@
                         "go over there",
                         "go there"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+2"
                 },
                 {
                     "command name": "deploy chemlight",
@@ -406,7 +346,7 @@
                         "deploy chemlight",
                         "drop chemlight"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+5+4"
                 },
                 {
                     "command name": "deploy shield",
@@ -414,15 +354,7 @@
                         "deploy shield",
                         "switch to shield"
                     ],
-                    "keys_sequence": null
-                },
-                {
-                    "command name": "fold shield",
-                    "variations": [
-                        "fold shield",
-                        "fold back shield"
-                    ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+5+5"
                 },
                 {
                     "command name": "fold shield",
@@ -442,7 +374,7 @@
                         "bag it",
                         "search and bag"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+6"
                 }
             ]
         },
@@ -478,7 +410,7 @@
                         "police dont move",
                         "show me your hands"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "f"
                 },
                 {
                     "command name": "tell suspect to turn around",
@@ -517,7 +449,7 @@
                         "halt",
                         "hold"
                     ],
-                    "keys_sequence": null
+                    "keys_sequence": "mmb+4"
                 },
                 {
                     "command name": "disarm trap",

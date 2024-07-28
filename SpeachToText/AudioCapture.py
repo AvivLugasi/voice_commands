@@ -7,7 +7,7 @@ PLAYER_COMMAND_RECORD = "Assets/AudioFiles/player_recorded_command_temp.wav"
 RECORD_DURATION = 8
 SAMPLES_PER_SECONDS = 16000
 IS_STREAM_FROM_INPUT = True
-RECORD_KEY_PRESSED = 'space'
+RECORD_KEY_PRESSED = 'v'
 
 
 class Recorder:
@@ -63,7 +63,11 @@ class Recorder:
         except KeyboardInterrupt:
             # Handle interrupt for gracefully stopping the recording
             pass
-
+        except OSError as e:
+            pass
+        except Exception as e:
+            # Handle any exception
+            print(f"An error occurred: {e}")
         print("finished recording")
         return frames
 

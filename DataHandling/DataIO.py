@@ -19,7 +19,7 @@ COMMANDS_VARIATIONS_AND_EMBEDDING_FILE_PATH = "Assets/Data/ReadyOrNot/CommandsAn
 VARIATION_EMBEDDING_SEPERATOR = ":"
 
 
-class DataLoader:
+class DataIO:
     def __init__(self,
                  formatted_commands_file_path=FORMATTED_COMMANDS_FILE_PATH,
                  commands_variations_and_embedding_file_path=COMMANDS_VARIATIONS_AND_EMBEDDING_FILE_PATH):
@@ -70,6 +70,20 @@ class DataLoader:
             variations_list.extend(variations)
 
         return variations_list
+
+    def get_variations_keys_sequence_dict(self):
+        # List to hold all commands
+        commands_list = self.get_commands_list()
+        # List to hold all variations
+        variations_dict = {}
+
+        for command in commands_list:
+            variations = command.get(COMMAND_VARIATIONS_KEY, [])
+            keys_sequence = command.get(COMMAND_KEYS_SEQUENCE_KEY, [])
+            for variation in variations:
+                variations_dict[variation] = keys_sequence
+
+        return variations_dict
 
     def load_variations_embedding_dict(self):
         variations_embedding_dict = {}

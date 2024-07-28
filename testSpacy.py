@@ -2,27 +2,51 @@ from SpeachToText.AudioCapture import Recorder
 import time
 from TextProcessing.TextProcessor import TextProcessor
 import whisper
-from Model.BertModel import SentenceEmbedderModel
+from Model.BertModel import SentenceEmbedderModel, find_top_n_similar_sentences, SequenceClassificationModel
 from Model.Utils import cosine_sim
 import json
 import numpy as np
-from DataHandling.DataLoader import DataLoader
+from DataHandling.DataIO import DataIO
+
+import pyautogui
+
+def perform_key_sequence(key_sequence:str):
+    if key_sequence is not None:
+        splited_key_sequence = key_sequence.split("+")
+        for key in splited_key_sequence:
+            if key == "mmb":
+                pyautogui.mouseDown(button='middle')
+                time.sleep(0.1)
+                pyautogui.mouseUp(button='middle')
+            else:
+                pyautogui.press(key)
+                time.sleep(0.1)
 
 
-dataloader = DataLoader()
-variations_embedding_dict = dataloader.load_variations_embedding_dict()
 
-model = SentenceEmbedderModel(model_name='bert-base-uncased')
+data_io = DataIO()
+model = SequenceClassificationModel()
 
-sentence_vectors_np_1 = model.sentence_to_vector('flash')
-sentence_2 = "flashbang"
-sentence_vectors_np_2 = model.sentence_to_vector(processed_sentence=sentence_2)
+# commands_variations = data_io.get_commands_variations()
+# variations_embedding_dict = {}
+# for variation in commands_variations:
+#     sentence_vectors = model.sentence_to_vector(variation)
+#     variations_embedding_dict[variation] = sentence_vectors
+#
+# data_io.write_variations_embedding_dict(variations_embedding_dict)
+
+variations_embedding_dict = data_io.load_variations_embedding_dict()
+variations_keys_sequence_dict = data_io.get_variations_keys_sequence_dict()
+
+
+sentence_vectors_np_1 = model.sentence_to_vector('c2')
+sentence_vectors_np_2 = model.sentence_to_vector(processed_sentence='charges')
 
 print(cosine_sim(sentence_vectors_np_1, sentence_vectors_np_2, is_1d = True))
 
 # Load the Whisper Model
 start_time = time.time()
-whisper_model = whisper.load_model("medium")
+whisper_model = whisper.load_model("small")
 end_time = time.time()
 print(f"Time taken to load model: {end_time - start_time} seconds")
 processor = TextProcessor(remove_stopwords=False)
@@ -30,7 +54,7 @@ processor = TextProcessor(remove_stopwords=False)
 while True:
     start_time = time.time()
     recorder = Recorder()
-    recorder.capture_voice_command(record_method_param="space")
+    recorder.capture_voice_command(record_method_param="v")
     end_time = time.time()
     print(f"Time taken to recording: {end_time - start_time} seconds")
     start_time = time.time()
@@ -48,6 +72,8 @@ while True:
     print(processed_sentence)
 
     start_time = time.time()
-    most_similar = model.find_top_n_similar_sentences(processed_sentence, variations_embedding_dict)
+    command, similarity = find_top_n_similar_sentences(model,processed_sentence,variations_embedding_dict)
     end_time = time.time()
-    print(f"most similar to {processed_sentence}: {most_similar} time taken for inference: {end_time - start_time} sec")
+    print(f"most similar to {processed_sentence}: {command[0]} : {similarity[0]} time taken for inference: {end_time - start_time} sec")
+    print(f"key sequence: {variations_keys_sequence_dict[command[0]]}")
+    perform_key_sequence(variations_keys_sequence_dict[command[0]])
