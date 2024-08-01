@@ -24,7 +24,7 @@ def perform_key_sequence(key_sequence:str):
 
 
 
-data_io = DataIO()
+data_io = DataIO(formatted_commands_file_path="Assets/Data/ReadyOrNot/ReadyOrNotCommandsFormatted.json21")
 model = SequenceClassificationModel()
 
 # commands_variations = data_io.get_commands_variations()
@@ -46,7 +46,7 @@ print(cosine_sim(sentence_vectors_np_1, sentence_vectors_np_2, is_1d = True))
 
 # Load the Whisper Model
 start_time = time.time()
-whisper_model = whisper.load_model("small")
+whisper_model = whisper.load_model("base")
 end_time = time.time()
 print(f"Time taken to load model: {end_time - start_time} seconds")
 processor = TextProcessor(remove_stopwords=False)

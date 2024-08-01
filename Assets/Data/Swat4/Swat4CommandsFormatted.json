@@ -1,0 +1,494 @@
+{
+    "profile name": "profile example",
+    "commands groups":
+    [
+        {
+            "group name": "commands on closed doors",
+            "commands list":
+            [
+                {
+                    "command name": "open and clear",
+                    "variations": [
+                        "open and clear",
+                        "open make entry",
+                        "open the door and clear"
+                    ],
+                    "keys_sequence": "8+1+backspace"
+                },
+                {
+                    "command name": "open and clear with stun grenade",
+                    "variations": [
+                        "open and clear use flashbang",
+                        "open and clear use stun grenade",
+                        "open and clear use thunderflash"
+                    ],
+                    "keys_sequence": "8+2+backspace"
+                },
+                {
+                    "command name": "open and clear with tear gas",
+                    "variations": [
+                        "open and clear use tear gas",
+                        "open and clear use cs gas"
+                    ],
+                    "keys_sequence": "8+3+backspace"
+                },
+                {
+                    "command name": "open and clear with stinger grenade",
+                    "variations": [
+                        "open and clear use sting grenade",
+                        "open and clear use stinger"
+                    ],
+                    "keys_sequence": "8+4+backspace"
+                },
+                {
+                    "command name": "breach and clear with charges",
+                    "variations": [
+                        "open and clear use charges",
+                        "open and clear use explosives",
+                        "open and clear use c4",
+                        "breach with c2 and clear",
+                        "breach with c4 and clear",
+                        "breach with explosives and clear"
+                    ],
+                    "keys_sequence": "9+1+backspace"
+                },
+                {
+                    "command name": "breach with charges",
+                    "variations": [
+                        "open use charges",
+                        "open use explosives",
+                        "open use c4"
+                    ],
+                    "keys_sequence": "9+1+backspace"
+                },
+                {
+                    "command name": "breach and clear with shotgun",
+                    "variations": [
+                        "open and clear use shotgun",
+                        "breach with shotgun and clear"
+                    ],
+                    "keys_sequence": "9+6+backspace"
+                },
+                {
+                    "command name": "breach with shotgun",
+                    "variations": [
+                        "open use shotgun",
+                        "breach with shotgun"
+                    ],
+                    "keys_sequence": "9+6+backspace"
+                },
+                {
+                    "command name": "kick and clear",
+                    "variations": [
+                        "kick the door and clear",
+                        "make entry kick it"
+                    ],
+                    "keys_sequence": "mmb+3+1+1+backspace"
+                },
+                {
+                    "command name": "kick the door",
+                    "variations": [
+                        "kick the door",
+                        "kick it"
+                    ],
+                    "keys_sequence": "mmb+3+1+1"
+                },
+                {
+                    "command name": "breach and clear with charges use stun grenade",
+                    "variations": [
+                        "breach with explosives and clear throw flashbang",
+                        "breach with explosives and clear throw stun grenade",
+                        "open and clear with explosives throw stun grenade"
+                    ],
+                    "keys_sequence": "9+2+backspace"
+                },
+                {
+                    "command name": "breach and clear with shotgun use stun grenade",
+                    "variations": [
+                        "open and clear use shotgun throw flashbang",
+                        "open and clear use shotgun throw thunderflash",
+                        "open and clear with shotgun use stun grenade",
+                        "breach with shotgun and clear throw stun grenade"
+                    ],
+                    "keys_sequence": "9+7+backspace"
+                },
+                {
+                    "command name": "kick and clear use stun grenade",
+                    "variations": [
+                        "kick and clear throw flashbang",
+                        "kick and clear throw thunderflash",
+                        "kick and clear use stun grenade",
+                        "kick and clear use stun grenade"
+                    ],
+                    "keys_sequence": "mmb+3+1+2"
+                },
+                {
+                    "command name": "breach and clear with charges use stinger grenade",
+                    "variations": [
+                        "open and clear use charges throw stinger grenade",
+                        "open and clear use charges throw stinger",
+                        "open and clear with explosives use stinger grenade",
+                        "breach with explosives and clear throw stinger",
+                        "breach with explosives and clear throw stinger grenade",
+                        "breach with explosives and clear throw stinger grenade"
+                    ],
+                    "keys_sequence": "9+4+backspace"
+                },
+                {
+                    "command name": "breach and clear with shotgun use stinger grenade",
+                    "variations": [
+                        "open and clear use shotgun throw stinger",
+                        "make entry with shotgun use stinger grenade",
+                        "breach with shotgun and clear throw stinger"
+                    ],
+                    "keys_sequence": "9+9+backspace"
+                },
+                {
+                    "command name": "kick and clear use stinger grenade",
+                    "variations": [
+                        "kick and clear throw stinger",
+                        "make entry kick it use stinger grenade"
+                    ],
+                    "keys_sequence": "mmb+3+1+3"
+                },
+                {
+                    "command name": "breach and clear with charges use tear gas",
+                    "variations": [
+                        "breach with explosives and clear throw cs",
+                        "breach with explosives and clear throw tear gas",
+                        "breach with charges and clear throw cs",
+                        "breach with charges and clear throw tear gas",
+                        "open and clear with explosives throw tear gas"
+                    ],
+                    "keys_sequence": "9+3+backspace"
+                },
+                {
+                    "command name": "breach and clear with shotgun use tear gas",
+                    "variations": [
+                        "breach with shotgun and clear throw cs",
+                        "breach with shotgun and clear throw tear gas",
+                        "open and clear with shotgun throw tear gas"
+                    ],
+                    "keys_sequence": "9+8+backspace"
+                },
+                {
+                    "command name": "kick and clear use tear gas",
+                    "variations": [
+                        "kick and clear throw tear gas",
+                        "kick and clear throw cs",
+                        "make entry kick it use cs",
+                        "make entry kick it use tear gas"
+                    ],
+                    "keys_sequence": "mmb+3+1+4"
+                },
+                {
+                    "command name": "open the door",
+                    "variations": [
+                        "open the door",
+                        "open it",
+                        "get the door"
+                    ],
+                    "keys_sequence": "8+1+backspace"
+                },
+                {
+                    "command name": "mirror the door",
+                    "variations": [
+                        "mirror the door",
+                        "snake it",
+                        "snake the door",
+                        "check for contacts",
+                        "use the optic wand",
+                        "wand it",
+                        "check under the door"
+                    ],
+                    "keys_sequence": "7+4+backspace"
+                },
+                {
+                    "command name": "wedge the door",
+                    "variations": [
+                        "wedge the door",
+                        "wedge it"
+                    ],
+                    "keys_sequence": "-+0+backspace"
+                },
+                {
+                    "command name": "remove wedge",
+                    "variations": [
+                        "remove the wedge",
+                        "pick up wedge"
+                    ],
+                    "keys_sequence": "-+0+backspace"
+                },
+                {
+                    "command name": "stack up the door",
+                    "variations": [
+                        "stack up",
+                        "stack up the door",
+                        "check the door"
+                    ],
+                    "keys_sequence": "7+2+backspace"
+                }
+            ]
+        },
+        {
+            "group name": "commands on opened doors",
+            "commands list":
+            [
+                {
+                    "command name": "close the door",
+                    "variations": [
+                        "close the door",
+                        "shut the door"
+                    ],
+                    "keys_sequence": "mmb+8"
+                },
+                {
+                    "command name": "clear with stun grenade",
+                    "variations": [
+                        "clear use flashbang",
+                        "clear use stun grenade",
+                        "clear use thunderflash",
+                        "make entry use flashbang",
+                        "make entry throw flashbang",
+                        "clear throw stun grenade"
+                    ],
+                    "keys_sequence": "8+2+backspace"
+                },
+                {
+                    "command name": "clear with tear gas",
+                    "variations": [
+                        "clear use tear gas",
+                        "clear use cs gas",
+                        "clear use gas",
+                        "make entry use tear gas",
+                        "make entry throw cs",
+                        "clear throw tear gas"
+                    ],
+                    "keys_sequence": "8+3+backspace"
+                },
+                {
+                    "command name": "clear with stinger grenade",
+                    "variations": [
+                        "clear use sting grenade",
+                        "clear use stinger",
+                        "make entry use stinger",
+                        "make entry sting grenade",
+                        "clear throw stinger"
+                    ],
+                    "keys_sequence": "8+4+backspace"
+                },
+                {
+                    "command name": "throw stun grenade",
+                    "variations": [
+                        "throw flashbang",
+                        "throw stun grenade",
+                        "throw thunderflash",
+                        "deploy thunderflash",
+                        "deploy stun grenade",
+                        "deploy flashbang"
+                    ],
+                    "keys_sequence": "4+1+backspace"
+                },
+                {
+                    "command name": "throw tear gas",
+                    "variations": [
+                        "throw tear gas",
+                        "throw cs gas",
+                        "deploy tear gas",
+                        "deploy cs"
+                    ],
+                    "keys_sequence": "4+2+backspace"
+                },
+                {
+                    "command name": "throw stinger grenade",
+                    "variations": [
+                        "throw sting grenade",
+                        "deploy sting grenade"
+                    ],
+                    "keys_sequence": "4+3+backspace"
+                }
+            ]
+        },
+        {
+            "group name": "general commands",
+            "commands list":
+            [
+                {
+                    "command name": "fall in",
+                    "variations": [
+                        "fall in",
+                        "follow me",
+                        "follow me",
+                        "group up"
+                    ],
+                    "keys_sequence": "2"
+                },
+                {
+                    "command name": "cover",
+                    "variations": [
+                        "cover it",
+                        "cover the area",
+                        "watch this corner",
+                        "guard it"
+                    ],
+                    "keys_sequence": "5"
+                },
+                {
+                    "command name": "move to",
+                    "variations": [
+                        "move to",
+                        "move to this position",
+                        "go over there",
+                        "go there"
+                    ],
+                    "keys_sequence": "3"
+                },
+                {
+                    "command name": "deploy chemlight",
+                    "variations": [
+                        "deploy chemlight",
+                        "drop chemlight"
+                    ],
+                    "keys_sequence": "4+9+backspace"
+                },
+                {
+                    "command name": "deploy shield",
+                    "variations": [
+                        "deploy shield",
+                        "switch to shield"
+                    ],
+                    "keys_sequence": "mmb+5+5"
+                },
+                {
+                    "command name": "fold shield",
+                    "variations": [
+                        "fold shield",
+                        "fold back shield"
+                    ],
+                    "keys_sequence": "mmb+5+5"
+                },
+                {
+                    "command name": "search and secure",
+                    "variations": [
+                        "secure the area",
+                        "search and secure",
+                        "collect everything",
+                        "collect evidence",
+                        "bag it",
+                        "search and bag"
+                    ],
+                    "keys_sequence": "6"
+                }
+            ]
+        },
+        {
+            "group name": "commands to people",
+            "commands list":
+            [
+                {
+                    "command name": "arrest",
+                    "variations": [
+                        "arrest him",
+                        "arrest her",
+                        "arrest suspect",
+                        "arrest civilian",
+                        "restrain him",
+                        "restrain her",
+                        "restrain suspect",
+                        "restrain civilian",
+                        "tie up civilian",
+                        "tie up suspect",
+                        "tie up",
+                        "zip tie"
+                    ],
+                    "keys_sequence": "6"
+                },
+                {
+                    "command name": "yell to surrender",
+                    "variations": [
+                        "dont move",
+                        "hands up",
+                        "lspd dont move",
+                        "hands in the air",
+                        "police dont move",
+                        "show me your hands"
+                    ],
+                    "keys_sequence": "f"
+                },
+                {
+                    "command name": "tell suspect to turn around",
+                    "variations": [
+                        "turn around"
+                    ],
+                    "keys_sequence": "mmb+4"
+                },
+                {
+                    "command name": "tell suspect to move to your position",
+                    "variations": [
+                        "suspect move to me"
+                    ],
+                    "keys_sequence": "mmb+2+2"
+                },
+                {
+                    "command name": "tell suspect to stop moving",
+                    "variations": [
+                        "suspect hold",
+                        "suspect stop"
+                    ],
+                    "keys_sequence": "mmb+2+3"
+                },
+                {
+                    "command name": "execute a queued command",
+                    "variations": [
+                        "execute",
+                        "go go go"
+                    ],
+                    "keys_sequence": "mmb+1"
+                },
+                {
+                    "command name": "tell team to hold position",
+                    "variations": [
+                        "hold position",
+                        "halt",
+                        "hold"
+                    ],
+                    "keys_sequence": "mmb+4"
+                },
+                {
+                    "command name": "disarm trap",
+                    "variations": [
+                        "disarm trap",
+                        "disarm it"
+                    ],
+                    "keys_sequence": null
+                },
+                {
+                    "command name": "deploy taser",
+                    "variations": [
+                        "taser",
+                        "tazer",
+                        "taser him"
+                    ],
+                    "keys_sequence": "4+5+backspace"
+                },
+                {
+                    "command name": "deploy pepper",
+                    "variations": [
+                        "pepper",
+                        "pepper spray",
+                        "spray him"
+                    ],
+                    "keys_sequence": "4+6+backspace"
+                },
+                {
+                    "command name": "report to toc",
+                    "variations": [
+                        "report to toc",
+                        "report it"
+                    ],
+                    "keys_sequence": "f"
+                }
+            ]
+        }
+    ]
+}
