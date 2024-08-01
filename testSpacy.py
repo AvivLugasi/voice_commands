@@ -24,7 +24,7 @@ def perform_key_sequence(key_sequence:str):
 
 
 
-data_io = DataIO(formatted_commands_file_path="Assets/Data/Swat4/Swat4CommandsFormatted.json")
+data_io = DataIO(formatted_commands_file_path="Assets/Data/ReadyOrNot/ReadyOrNotCommandsFormatted.json21")
 model = SequenceClassificationModel()
 
 # commands_variations = data_io.get_commands_variations()
@@ -54,7 +54,7 @@ processor = TextProcessor(remove_stopwords=False)
 while True:
     start_time = time.time()
     recorder = Recorder()
-    recorder.capture_voice_command(record_method_param="h")
+    recorder.capture_voice_command(record_method_param="v")
     end_time = time.time()
     print(f"Time taken to recording: {end_time - start_time} seconds")
     start_time = time.time()
