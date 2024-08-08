@@ -1,5 +1,6 @@
-import phonetics
-from phonetics import metaphone, nysiis
+from metaphone import doublemetaphone
+import Levenshtein
+from typing import Literal
 
 SOUNDEX_CODING_DICT = {"b": "1",
                        "f": "1",
@@ -47,38 +48,69 @@ def soundex_encoder(input_word: str):
 
     return hash_code
 
-# soundex
-print("soundex")
-print(soundex_encoder("rich"))
-print(soundex_encoder("breach"))
-print(soundex_encoder("bleach"))
-print(soundex_encoder("collect"))
-print(soundex_encoder("correct"))
-print(soundex_encoder("stick"))
-print(soundex_encoder("stack"))
-print(soundex_encoder("god"))
-print(soundex_encoder("gold"))
+def calc_corpus_phonetic_codes(corpus,
+                               method: Literal["double metaphone", "soundex"] = "double metaphone"):
+    word_codes_dict = {}
+    for word in corpus:
+        if method == "double metaphone":
+            word_codes_dict[word] = doublemetaphone(word)
+        elif method == "soundex":
+            word_codes_dict[word] = soundex_encoder(word)
+        else:
+            raise ValueError(f"Invalid value: {method}. must be one of: double metaphone, soundex.")
 
-#  metaphone
-print("metaphone")
-print(metaphone("rich"))
-print(metaphone("breach"))
-print(metaphone("bleach"))
-print(metaphone("collect"))
-print(metaphone("correct"))
-print(metaphone("stick"))
-print(metaphone("stack"))
-print(metaphone("god"))
-print(metaphone("gold"))
+    return word_codes_dict
 
-# nysiis
-print("nysiis")
-print(nysiis("rich"))
-print(nysiis("breach"))
-print(nysiis("bleach"))
-print(nysiis("collect"))
-print(nysiis("correct"))
-print(nysiis("stick"))
-print(nysiis("stack"))
-print(nysiis("god"))
-print(nysiis("gold"))
+def find_closest_word(input_word,
+                      word_codes_dict: dict,
+                      method: Literal["double metaphone", "soundex"] = "double metaphone"):
+    if method == "double metaphone":
+        input_word_code = doublemetaphone(input_word)
+    elif method == "soundex":
+        input_word_code = soundex_encoder(input_word)
+    else:
+        raise ValueError(f"Invalid value: {method}. must be one of: double metaphone, soundex.")
+
+    smallest_distance = float('inf')
+    most_similar = []
+    for word, corpus_word_code in word_codes_dict.items():
+        if method == "double metaphone":
+            distance = calc_distance_double_metaphone(input_word_code, corpus_word_code)
+        else:
+            distance = Levenshtein.distance(input_word_code, corpus_word_code)
+        if distance < smallest_distance:
+            most_similar = [word]
+            smallest_distance = distance
+            # calc confidence level in the current most phonetic similar word
+            if method == "double metaphone":
+                combined_codes_list = corpus_word_code + list(input_word_code)
+                max_length = max(len(element) for element in combined_codes_list)
+                confidence = 1 - smallest_distance / max_length
+            else:
+                confidence = 1 - smallest_distance / len(input_word_code)
+        elif distance == smallest_distance:
+            most_similar.append(word)
+
+    return most_similar, smallest_distance, confidence
+
+def calc_distance_double_metaphone(input_word_code, corpus_word_code):
+    # check prime key to prime key match
+    smallest_distance = Levenshtein.distance(input_word_code[0], corpus_word_code[0])
+    # check prime key to secondary key match
+    if input_word_code[1] != '':
+        distance = Levenshtein.distance(input_word_code[1], corpus_word_code[0])
+        smallest_distance = _update_smallest_distance(smallest_distance, distance)
+    if corpus_word_code[1] != '':
+        distance = Levenshtein.distance(input_word_code[0], corpus_word_code[1])
+        smallest_distance = _update_smallest_distance(smallest_distance, distance)
+    # check secondary key to secondary key match
+    if corpus_word_code[1] != '' and input_word_code[1] != '':
+        distance = Levenshtein.distance(input_word_code[1], corpus_word_code[1])
+        smallest_distance = _update_smallest_distance(smallest_distance, distance)
+
+    return smallest_distance
+
+def _update_smallest_distance(smallest_distance, distance):
+    if distance < smallest_distance:
+        smallest_distance = distance
+    return smallest_distance

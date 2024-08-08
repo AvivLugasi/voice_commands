@@ -71,6 +71,19 @@ class DataIO:
 
         return variations_list
 
+    def get_commands_variations_words_set(self):
+        # List to hold all commands
+        commands_list = self.get_commands_list()
+        # List to hold all variations
+        words_set = set()
+
+        for command in commands_list:
+            variations = command.get(COMMAND_VARIATIONS_KEY, [])
+            for variation in variations:
+                words_set.update(variation.split())
+
+        return words_set
+
     def get_variations_keys_sequence_dict(self):
         # List to hold all commands
         commands_list = self.get_commands_list()
@@ -85,9 +98,12 @@ class DataIO:
 
         return variations_dict
 
-    def load_variations_embedding_dict(self):
+    def load_variations_embedding_dict(self,
+                                       file_path=None):
+        if file_path is None:
+            file_path = self.commands_variations_and_embedding_file_path
         variations_embedding_dict = {}
-        with open(self.commands_variations_and_embedding_file_path, 'r') as file:
+        with open(file_path, 'r') as file:
             while True:
                 line = file.readline()
                 if not line:
@@ -99,7 +115,12 @@ class DataIO:
 
         return variations_embedding_dict
 
-    def write_variations_embedding_dict(self, variations_embedding_dict:dict):
+    def write_variations_embedding_dict(self,
+                                        variations_embedding_dict:dict,
+                                        file_path=None):
+        if file_path is None:
+            file_path = self.commands_variations_and_embedding_file_path
+
         for command_variation, embedding in variations_embedding_dict.items():
             # Convert the numpy tensor to a string
             tensor_string = np.array2string(embedding,
@@ -110,5 +131,47 @@ class DataIO:
             line_to_write = f"{command_variation}:{tensor_string}"
 
             # Write the line to a file
-            with open(self.commands_variations_and_embedding_file_path, 'a') as file:
+            with open(file_path, 'a') as file:
                 file.write(line_to_write + '\n')
+
+    def write_words_phonetic_codes_dict(self,
+                                        words_phonetic_cods_dict: dict,
+                                        file_path=None):
+        if file_path is None:
+            file_path = self.commands_variations_and_embedding_file_path
+
+        for word, phonetic_code in words_phonetic_cods_dict.items():
+            # if phonetic_code is tuple(double metaphone case)
+            if isinstance(phonetic_code, tuple):
+                line_to_write = f"{word}:{phonetic_code[0]}:{phonetic_code[1]}"
+            # else if it is a string(soundex case)
+            else:
+                line_to_write = f"{word}:{phonetic_code}"
+
+            # Write the line to a file
+            with open(file_path, 'a') as file:
+                file.write(line_to_write + '\n')
+
+    def load_words_phonetic_codes_dict(self,
+                                       file_path=None):
+        if file_path is None:
+            file_path = self.commands_variations_and_embedding_file_path
+
+        words_codes_dict = {}
+        with open(file_path, 'r') as file:
+            while True:
+                line = file.readline()
+                if not line:
+                    break
+                line_splited = line.strip().split(VARIATION_EMBEDDING_SEPERATOR)
+                word = line_splited[0]
+                # double metaphone case
+                if len(line_splited) == 3:
+                    phonetic_codes = [line_splited[1],line_splited[2]]
+                else:
+                    # soundex case
+                    phonetic_codes = line_splited[1]
+
+                words_codes_dict[word] = phonetic_codes
+
+        return words_codes_dict

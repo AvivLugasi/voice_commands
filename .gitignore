@@ -4,3 +4,4 @@ Assets/Model/voice_command_word2vec.model.wv.vectors.npy
 Assets/Model/voice_command_word2vec.model
 Assets/Model/BertSequenceClassifier/config.json
 Assets/Model/BertSequenceClassifier/model.safetensors
+Assets/Model/VoskSpeechToText/*

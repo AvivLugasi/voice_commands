@@ -35,7 +35,7 @@
                 {
                     "command name": "open and clear with stinger grenade",
                     "variations": [
-                        "open and clear use sting grenade",
+                        "open and clear use stinger grenade",
                         "open and clear use stinger"
                     ],
                     "keys_sequence": "mmb+2+3"
@@ -57,7 +57,10 @@
                     "variations": [
                         "open use charges",
                         "open use explosives",
-                        "open use c4"
+                        "open use c4",
+                        "breach use c4",
+                        "breach use charges",
+                        "breach use explosives"
                     ],
                     "keys_sequence": "mmb+3+3+1"
                 },
@@ -81,7 +84,8 @@
                     "command name": "kick and clear",
                     "variations": [
                         "kick the door and clear",
-                        "make entry kick it"
+                        "make entry kick it",
+                        "open and clear kick the door"
                     ],
                     "keys_sequence": "mmb+3+1+1"
                 },
@@ -98,7 +102,8 @@
                     "variations": [
                         "breach with explosives and clear throw flashbang",
                         "breach with explosives and clear throw stun grenade",
-                        "open and clear with explosives throw stun grenade"
+                        "open and clear with explosives throw stun grenade",
+                        "open and clear with explosives throw flashbang"
                     ],
                     "keys_sequence": "mmb+3+3+2"
                 },
@@ -108,7 +113,9 @@
                         "open and clear use shotgun throw flashbang",
                         "open and clear use shotgun throw thunderflash",
                         "open and clear with shotgun use stun grenade",
-                        "breach with shotgun and clear throw stun grenade"
+                        "breach with shotgun and clear throw stun grenade",
+                        "breach with shotgun and clear throw flashbang",
+                        "breach with shotgun and clear throw thunderflash"
                     ],
                     "keys_sequence": "mmb+3+2+2"
                 },
@@ -158,7 +165,10 @@
                         "breach with explosives and clear throw tear gas",
                         "breach with charges and clear throw cs",
                         "breach with charges and clear throw tear gas",
-                        "open and clear with explosives throw tear gas"
+                        "open and clear with explosives throw tear gas",
+                        "open and clear with explosives throw cs",
+                        "open and clear with charges throw cs",
+                        "open and clear with explosives throw cs"
                     ],
                     "keys_sequence": "mmb+3+3+4"
                 },
@@ -269,10 +279,10 @@
                 {
                     "command name": "clear with stinger grenade",
                     "variations": [
-                        "clear use sting grenade",
+                        "clear use stinger grenade",
                         "clear use stinger",
                         "make entry use stinger",
-                        "make entry sting grenade",
+                        "make entry stinger grenade",
                         "clear throw stinger"
                     ],
                     "keys_sequence": "mmb+2+3"
@@ -302,8 +312,8 @@
                 {
                     "command name": "throw stinger grenade",
                     "variations": [
-                        "throw sting grenade",
-                        "deploy sting grenade"
+                        "throw stinger grenade",
+                        "deploy stinger grenade"
                     ],
                     "keys_sequence": "mmb+5+2"
                 }
@@ -339,7 +349,8 @@
                         "move to",
                         "move to this position",
                         "go over there",
-                        "go there"
+                        "go there",
+                        "move"
                     ],
                     "keys_sequence": "mmb+2"
                 },
@@ -347,7 +358,9 @@
                     "command name": "deploy chemlight",
                     "variations": [
                         "deploy chemlight",
-                        "drop chemlight"
+                        "drop chemlight",
+                        "drop light",
+                        "drop chem"
                     ],
                     "keys_sequence": "mmb+5+4"
                 },

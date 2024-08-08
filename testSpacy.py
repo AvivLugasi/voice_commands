@@ -1,6 +1,8 @@
 from SpeachToText.AudioCapture import Recorder
+from SpeachToText import SpeachToText
 import time
 from TextProcessing.TextProcessor import TextProcessor
+from TextProcessing.PostProcessing import *
 import whisper
 from Model.BertModel import SentenceEmbedderModel, find_top_n_similar_sentences, SequenceClassificationModel
 from Model.Utils import cosine_sim
@@ -24,8 +26,17 @@ def perform_key_sequence(key_sequence:str):
 
 
 
-data_io = DataIO(formatted_commands_file_path="Assets/Data/ReadyOrNot/ReadyOrNotCommandsFormatted.json21")
+data_io = DataIO(formatted_commands_file_path="Assets/Data/ReadyOrNot/ReadyOrNotCommandsFormatted.json")
 model = SequenceClassificationModel()
+
+words_set = data_io.get_commands_variations_words_set()
+# words_embedding_dict = {}
+# for word in words_set:
+#     word_vector = model.sentence_to_vector(word)
+#     words_embedding_dict[word] = word_vector
+#
+# data_io.write_variations_embedding_dict(words_embedding_dict,
+#                                         file_path="Assets/Data/ReadyOrNot/WordsCorpusEmbeddings")
 
 # commands_variations = data_io.get_commands_variations()
 # variations_embedding_dict = {}
@@ -36,19 +47,52 @@ model = SequenceClassificationModel()
 # data_io.write_variations_embedding_dict(variations_embedding_dict)
 
 variations_embedding_dict = data_io.load_variations_embedding_dict()
+words_embedding_dict = data_io.load_variations_embedding_dict(file_path="Assets/Data/ReadyOrNot/WordsCorpusEmbeddings")
 variations_keys_sequence_dict = data_io.get_variations_keys_sequence_dict()
 
+# words_phonetic_codes_dict = calc_corpus_phonetic_codes(words_set)
+# data_io.write_words_phonetic_codes_dict(words_phonetic_codes_dict,
+#                                         file_path="Assets/Data/ReadyOrNot/WordsMetaphonePhoneticCodes")
+words_phonetic_codes_dict = data_io.load_words_phonetic_codes_dict(file_path="Assets/Data/ReadyOrNot/WordsMetaphonePhoneticCodes")
+words_phonetic_codes_dict = data_io.load_words_phonetic_codes_dict(file_path="Assets/Data/ReadyOrNot/WordsSoundexPhoneticCodes")
 
-sentence_vectors_np_1 = model.sentence_to_vector('c2')
-sentence_vectors_np_2 = model.sentence_to_vector(processed_sentence='charges')
+print(find_closest_word("charger", words_phonetic_codes_dict, method="soundex"))
+print(find_closest_word("stung", words_phonetic_codes_dict, method="soundex"))
+print(find_closest_word("rich", words_phonetic_codes_dict, method="soundex"))
+print(find_closest_word("bleach", words_phonetic_codes_dict, method="soundex"))
+print(find_closest_word("freshbed", words_phonetic_codes_dict, method="soundex"))
+print(find_closest_word("dough", words_phonetic_codes_dict, method="soundex"))
+# from metaphone import doublemetaphone
+# import Levenshtein
+# code1 = doublemetaphone("stung")
+# code2 = doublemetaphone("stun")
+# code3 = doublemetaphone("stinger")
+# print(code1)
+# print(code2)
+# print(code3)
+
+# words_phonetic_codes_dict = calc_corpus_phonetic_codes(words_set, method="soundex")
+# data_io.write_words_phonetic_codes_dict(words_phonetic_codes_dict,
+#                                         file_path="Assets/Data/ReadyOrNot/WordsSoundexPhoneticCodes")
+# words_phonetic_codes_dict = data_io.load_words_phonetic_codes_dict(file_path="Assets/Data/ReadyOrNot/WordsSoundexPhoneticCodes")
+# print(words_phonetic_codes_dict)
+
+sentence_vectors_np_1 = model.sentence_to_vector('breach')
+sentence_vectors_np_2 = model.sentence_to_vector(processed_sentence='open')
 
 print(cosine_sim(sentence_vectors_np_1, sentence_vectors_np_2, is_1d = True))
 
+#print(cosine_sim(words_embedding_dict['charger'], model.sentence_to_vector(processed_sentence='charges'), is_1d = True))
+print(find_top_n_similar_sentences(model,'charger',words_embedding_dict))
+print(find_top_n_similar_sentences(model,'bleach',words_embedding_dict))
+print(find_top_n_similar_sentences(model,'charred',words_embedding_dict))
+print(find_top_n_similar_sentences(model,'rich',words_embedding_dict))
 # Load the Whisper Model
 start_time = time.time()
-whisper_model = whisper.load_model("base")
+whisper_model = SpeachToText.WhisperSpeachToText(model_name=SpeachToText.TINY)
 end_time = time.time()
 print(f"Time taken to load model: {end_time - start_time} seconds")
+
 processor = TextProcessor(remove_stopwords=False)
 
 while True:
@@ -58,13 +102,11 @@ while True:
     end_time = time.time()
     print(f"Time taken to recording: {end_time - start_time} seconds")
     start_time = time.time()
-    # Transcribe the Ogg file
-    result = whisper_model.transcribe("Assets/AudioFiles/player_recorded_command_temp.wav", fp16=False, language='en')
+    text = whisper_model.transcribe_audio_file()
     end_time = time.time()
     print(f"Time taken to transcribe text: {end_time - start_time} seconds")
     # Print the transcription result
-    print(result["text"])
-    text = result["text"]
+    print(text)
     processed_sentence = processor.process_text(text)
     if isinstance(processed_sentence, list):
         processed_sentence_as_list = ' '.join(processed_sentence)
