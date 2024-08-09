@@ -77,7 +77,7 @@ def find_closest_word(input_word,
         if method == "double metaphone":
             distance = calc_distance_double_metaphone(input_word_code, corpus_word_code)
         else:
-            distance = Levenshtein.distance(input_word_code, corpus_word_code)
+            distance = _hamming_distance(input_word_code, corpus_word_code)
         if distance < smallest_distance:
             most_similar = [word]
             smallest_distance = distance
@@ -114,3 +114,14 @@ def _update_smallest_distance(smallest_distance, distance):
     if distance < smallest_distance:
         smallest_distance = distance
     return smallest_distance
+
+def _hamming_distance(input_code, corpus_word_code):
+    if len(input_code) != len(corpus_word_code):
+        raise ValueError(f"strings lengths not match!.")
+
+    distance = 0
+    for input_code_char, corpuse_word_code_char in zip(input_code, corpus_word_code):
+        if input_code_char != corpuse_word_code_char:
+            distance+=1
+
+    return distance

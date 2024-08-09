@@ -53,7 +53,7 @@ variations_keys_sequence_dict = data_io.get_variations_keys_sequence_dict()
 # words_phonetic_codes_dict = calc_corpus_phonetic_codes(words_set)
 # data_io.write_words_phonetic_codes_dict(words_phonetic_codes_dict,
 #                                         file_path="Assets/Data/ReadyOrNot/WordsMetaphonePhoneticCodes")
-words_phonetic_codes_dict = data_io.load_words_phonetic_codes_dict(file_path="Assets/Data/ReadyOrNot/WordsMetaphonePhoneticCodes")
+#words_phonetic_codes_dict = data_io.load_words_phonetic_codes_dict(file_path="Assets/Data/ReadyOrNot/WordsMetaphonePhoneticCodes")
 words_phonetic_codes_dict = data_io.load_words_phonetic_codes_dict(file_path="Assets/Data/ReadyOrNot/WordsSoundexPhoneticCodes")
 
 print(find_closest_word("charger", words_phonetic_codes_dict, method="soundex"))
@@ -62,6 +62,7 @@ print(find_closest_word("rich", words_phonetic_codes_dict, method="soundex"))
 print(find_closest_word("bleach", words_phonetic_codes_dict, method="soundex"))
 print(find_closest_word("freshbed", words_phonetic_codes_dict, method="soundex"))
 print(find_closest_word("dough", words_phonetic_codes_dict, method="soundex"))
+print(find_closest_word("milhões", words_phonetic_codes_dict, method="soundex"))
 # from metaphone import doublemetaphone
 # import Levenshtein
 # code1 = doublemetaphone("stung")
@@ -77,10 +78,13 @@ print(find_closest_word("dough", words_phonetic_codes_dict, method="soundex"))
 # words_phonetic_codes_dict = data_io.load_words_phonetic_codes_dict(file_path="Assets/Data/ReadyOrNot/WordsSoundexPhoneticCodes")
 # print(words_phonetic_codes_dict)
 
-sentence_vectors_np_1 = model.sentence_to_vector('breach')
-sentence_vectors_np_2 = model.sentence_to_vector(processed_sentence='open')
+sentence_vectors_np_1 = model.sentence_to_vector('open and clear use explosive deploy stun')
+sentence_vectors_np_2 = model.sentence_to_vector("open and clear with explosives throw stun grenade")
+sentence_vectors_np_3 = model.sentence_to_vector("breach with explosives and clear throw stun grenade")
+
 
 print(cosine_sim(sentence_vectors_np_1, sentence_vectors_np_2, is_1d = True))
+print(cosine_sim(sentence_vectors_np_1, sentence_vectors_np_3, is_1d = True))
 
 #print(cosine_sim(words_embedding_dict['charger'], model.sentence_to_vector(processed_sentence='charges'), is_1d = True))
 print(find_top_n_similar_sentences(model,'charger',words_embedding_dict))
